@@ -149,3 +149,30 @@ Para desplegar la aplicación containerizada en producción:
     ```bash
     sudo docker-compose up -d --build
     ```
+
+---
+
+## 📝 Guía de Pruebas y Preguntas de Ejemplo (Datos Reales)
+
+Para probar el agente de forma rápida y efectiva, utiliza estos **casos reales de prueba** extraídos directamente del conjunto de datos corporativos:
+
+### 1. 🔍 Rastreo de Pedido Existente
+*   **Pregunta:** `Rastrear el envío AC551646166EC`
+*   **Qué esperar:** El agente debe conectarse a la tabla `pedidos`, identificar que pertenece a *Karla Villacis* con origen *Cuenca* y destino *Portoviejo*, y reportar su estado actual (`Entregado`).
+
+### 2. 🏢 Información de Sucursales
+*   **Pregunta:** `¿Quién es el gerente de la sucursal Matriz Norte y cuál es su horario?`
+*   **Qué esperar:** El agente debe retornar la ficha de la sucursal indicando que el gerente es *Paola Rivadeneira* y el horario completo (`Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00`).
+
+### 3. ⚠️ Verificación de Reclamos
+*   **Pregunta:** `Ver el estado del reclamo REC-0001`
+*   **Qué esperar:** El agente buscará en la tabla `reclamos`, encontrará la incidencia del cliente *Luis Mendoza* vinculada al pedido `PED-00152` e informará que se encuentra `En Proceso` bajo la atención de *Katherine Salinas*.
+
+### 4. 📦 Cotizaciones Comparativas Automáticas
+*   **Pregunta:** `¿Cuánto cuesta un envío estándar de Guayaquil a Cuenca para un paquete de 5kg?`
+*   **Qué esperar:** El agente calculará el costo base y los adicionales usando la distancia real de la ruta (`190 km`) y la tarifa correspondiente. Además, ofrecerá el desglose y las alternativas disponibles.
+
+### 5. 👤 Consulta de Personal
+*   **Pregunta:** `¿En qué ciudad trabaja la empleada Nicole Abigail Naranjo Delgado?`
+*   **Qué esperar:** El agente consultará la tabla `empleados` y responderá que Nicole trabaja en la ciudad de *Machala*.
+
