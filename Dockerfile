@@ -29,7 +29,6 @@ ENV PATH=/home/appuser/.local/bin:$PATH
 # Copiar el código fuente del proyecto
 COPY --chown=appuser:appgroup src/ ./src/
 COPY --chown=appuser:appgroup data/ ./data/
-COPY --chown=appuser:appgroup main.py .
 
 # Crear carpeta de logs y base de datos con permisos para el usuario
 RUN mkdir -p logs && \
