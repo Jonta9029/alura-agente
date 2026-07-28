@@ -1,0 +1,33 @@
+id_ruta,origen,destino,transportista,tipo_vehiculo,distancia_km,tiempo_estimado_horas,costo_base_usd,frecuencia_semanal
+RUT-001,Guayaquil,Cuenca,Logimax Transportes,Camion 7Ton,190,4.6,102.89,5
+RUT-002,Machala,Ibarra,AeroCarga Ecuador,Furgon,174,3.3,69.02,7
+RUT-003,Machala,Guayaquil,Flota Ecuador Cargo,Camion 7Ton,195,3.8,84.59,6
+RUT-004,Quito,Ambato,Servientrega Aliado Terrestre,Furgon,139,3.9,75.07,3
+RUT-005,Loja,Santo Domingo,Logimax Transportes,Tráiler 15Ton,557,10.1,239.29,7
+RUT-006,Guayaquil,Ambato,Transportes Andino S.A.,Moto Carguera,280,5.8,108.67,5
+RUT-007,Machala,Ambato,Servientrega Aliado Terrestre,Furgon,541,8.4,195.04,3
+RUT-008,Manta,Santo Domingo,Rapitrans Cia. Ltda.,Avion de Carga,244,1.2,115.35,3
+RUT-009,Cuenca,Machala,AeroCarga Ecuador,Avion de Carga,302,1.9,120.94,6
+RUT-010,Portoviejo,Guayaquil,Logimax Transportes,Moto Carguera,190,3.5,104.24,7
+RUT-011,Manta,Ambato,Flota Ecuador Cargo,Moto Carguera,581,9.4,215.22,6
+RUT-012,Guayaquil,Portoviejo,Flota Ecuador Cargo,Moto Carguera,190,4.9,86.12,5
+RUT-013,Ambato,Ibarra,Servientrega Aliado Terrestre,Camion 7Ton,630,9.8,335.68,6
+RUT-014,Cuenca,Quito,Servientrega Aliado Terrestre,Tráiler 15Ton,440,8.5,186.27,5
+RUT-015,Machala,Santo Domingo,Servientrega Aliado Terrestre,Furgon,454,8.1,188.83,5
+RUT-016,Guayaquil,Quito,AeroCarga Ecuador,Furgon,422,8.2,215.5,5
+RUT-017,Machala,Quito,Transportes Andino S.A.,Moto Carguera,572,9.4,313.41,6
+RUT-018,Portoviejo,Ibarra,Servientrega Aliado Terrestre,Camion 7Ton,573,9.1,310.17,7
+RUT-019,Quito,Guayaquil,Transportes Andino S.A.,Camion 7Ton,422,6.7,166.85,5
+RUT-020,Portoviejo,Quito,Servientrega Aliado Terrestre,Furgon,380,6.9,196.87,7
+RUT-021,Guayaquil,Quito,AeroCarga Ecuador,Tráiler 15Ton,422,6.7,157.82,7
+RUT-022,Loja,Quito,Logimax Transportes,Moto Carguera,693,12.2,351.92,6
+RUT-023,Loja,Quito,Logimax Transportes,Tráiler 15Ton,693,11.2,345.58,3
+RUT-024,Cuenca,Portoviejo,Transportes Andino S.A.,Furgon,252,6.1,95.82,7
+RUT-025,Quito,Cuenca,Logimax Transportes,Avion de Carga,440,3.1,211.84,6
+RUT-026,Quito,Quito,Transportes Andino S.A.,Avion de Carga,249,2.1,87.86,3
+RUT-027,Ibarra,Guayaquil,Logimax Transportes,Tráiler 15Ton,520,9.8,284.6,5
+RUT-028,Cuenca,Quito,Rapitrans Cia. Ltda.,Camion 3.5Ton,440,7.3,198.1,6
+RUT-029,Quito,Loja,Logimax Transportes,Camion 7Ton,693,11.5,345.00,5
+RUT-030,Guayaquil,Loja,Flota Ecuador Cargo,Camion 7Ton,410,7.2,165.00,5
+RUT-031,Cuenca,Loja,Transportes Andino S.A.,Furgon,210,4.2,95.00,5
+

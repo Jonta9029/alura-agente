@@ -1,0 +1,9 @@
+id,tipo_envio,descripcion,tiempo_entrega_dias,peso_maximo_kg,cobertura,costo_base_usd,restricciones
+PE-01,Estandar,Envio terrestre regular para paquetes de uso general.,3-4 dias habiles,30,Nacional,4.5,No incluye mercancia perecible ni fragil sin embalaje reforzado.
+PE-02,Express,Envio prioritario con transporte dedicado.,1-2 dias habiles,25,Nacional (ciudades principales),9.0,Disponible solo entre sucursales tipo Centro de Distribucion y Agencia principal.
+PE-03,Mismo Dia,Entrega el mismo dia dentro de la misma ciudad.,Mismo dia (pedido antes de 12:00),15,"Quito, Guayaquil, Cuenca, Manta",13.0,Sujeto a disponibilidad de mensajero y horario de corte.
+PE-04,Internacional,Envio hacia destinos fuera de Ecuador via aliados logisticos internacionales.,7-12 dias habiles,50,"Comunidad Andina, EE.UU., Espana",28.0,Requiere documentacion aduanera y declaracion de contenido.
+PE-05,Carga Pesada,Transporte de paquetes y pallets de gran volumen o peso.,4-6 dias habiles,500,Nacional,20.0,Requiere coordinacion previa de recoleccion con vehiculo especializado.
+PE-06,Embalaje y Seguro Opcional,Servicio adicional de embalaje reforzado y seguro contra danos o perdida.,No aplica,0,Nacional e Internacional,3.5,"El seguro cubre hasta el valor declarado del contenido, maximo USD 500."
+PE-07,Recoleccion a Domicilio,El transportista retira el paquete en la direccion del remitente.,Mismo dia o siguiente dia habil,100,Zonas urbanas con cobertura de sucursal,2.5,Disponible en horario de 08:00 a 16:00.
+PE-08,Entrega Programada,El destinatario elige fecha y franja horaria de entrega.,Segun fecha seleccionada,30,"Quito, Guayaquil, Cuenca",6.0,Debe programarse con minimo 24 horas de anticipacion.

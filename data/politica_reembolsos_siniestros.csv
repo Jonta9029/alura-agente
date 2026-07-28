@@ -1,0 +1,11 @@
+id,tipo_incidente,descripcion,plazo_reclamo_dias,porcentaje_reembolso,requisitos,tiempo_resolucion_dias
+PR-01,Paquete perdido,El paquete no llega a destino ni se recupera dentro del plazo de rastreo.,30,100,"Numero de seguimiento, factura o comprobante de valor declarado.",10
+PR-02,Paquete danado,El contenido llega con daños fisicos visibles al momento de la entrega.,5,100,"Fotografias del daño, numero de seguimiento, acta de recepcion con novedad.",7
+PR-03,Retraso en la entrega,La entrega supera el tiempo estimado segun el tipo de envio contratado.,15,50,Numero de seguimiento y comparacion con tiempo estimado ofertado.,5
+PR-04,Entrega a destinatario incorrecto,El paquete se entrega a una persona o direccion distinta a la indicada.,10,100,Numero de seguimiento y declaracion jurada simple del remitente.,8
+PR-05,Contenido faltante,El paquete llega abierto o con parte del contenido faltante.,5,100,"Fotografias, lista de contenido declarado, acta de recepcion con novedad.",10
+PR-06,Cancelacion antes de recoleccion,El cliente cancela el envio antes de que el transportista retire el paquete.,1,90,Solicitud de cancelacion a traves de la app o call center.,2
+PR-07,Cobro duplicado,Se realiza un cobro repetido por el mismo envio.,30,100,Comprobante de pago y numero de pedido.,5
+PR-08,Siniestro por accidente de transporte,Perdida o daño derivado de un accidente vehicular durante el traslado.,30,100,"Reporte de siniestro del transportista, numero de seguimiento, valor declarado.",15
+PR-09,Envio internacional retenido en aduana,El paquete es retenido por autoridades aduaneras del pais destino.,20,0,No aplica reembolso directo; se brinda acompañamiento documental al cliente.,20
+PR-10,Error en direccion de entrega por parte de la empresa,El paquete se envia a una direccion distinta por error operativo interno.,15,100,Numero de seguimiento; no se requiere documentacion adicional.,6

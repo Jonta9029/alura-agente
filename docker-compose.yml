@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: alura-agente-api
+    ports:
+      - "8000:8000"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - DATABASE_URL=sqlite:///./alura_agente.db
+      - CSV_PATH=data/corporate_data.csv
+      - PORT=8000
+    volumes:
+      # Persistencia de la base de datos SQLite y logs en el host
+      - ./alura_agente.db:/app/alura_agente.db
+      - ./logs:/app/logs
+    restart: unless-stopped

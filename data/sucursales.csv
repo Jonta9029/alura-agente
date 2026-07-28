@@ -1,0 +1,13 @@
+id_sucursal,nombre,ciudad,direccion,tipo,capacidad_diaria_paquetes,gerente,telefono,email,horario_atencion
+SUC-01,Matriz Norte,Quito,Av. Eloy Alfaro N32-15 y Av. 6 de Diciembre,Centro de Distribucion,750,Paola Rivadeneira,0953464097,matriz.norte@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-02,Agencia Sur,Quito,Av. Maldonado S18-45,Agencia,450,Marcelo Suquilanda,0930246633,agencia.sur@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-03,Matriz Guayaquil,Guayaquil,"Av. Francisco de Orellana, Edif. World Trade Center",Centro de Distribucion,750,Andrea Falconi,0962992312,matriz.guayaquil@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-04,Agencia Alborada,Guayaquil,"Alborada 12va Etapa, Av. Rodolfo Baquerizo",Agencia,450,Ruben Zurita,0997366946,agencia.alborada@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-05,Agencia Cuenca Centro,Cuenca,Calle Larga y Hermano Miguel,Agencia,300,Katherine Loayza,0916480894,agencia.cuenca.centro@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-06,Agencia Manta Puerto,Manta,"Malecon Escenico, Via al Puerto",Centro de Distribucion,600,Diego Naranjo,0919722233,agencia.manta.puerto@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-07,Agencia Ambato,Ambato,Av. Cevallos y Mariano Egüez,Agencia,300,Silvia Guaman,0981924865,agencia.ambato@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-08,Agencia Loja,Loja,Av. Universitaria y Colon,Agencia,150,Esteban Palacios,0922633920,agencia.loja@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-09,Agencia Machala,Machala,Av. Bolivar Madero Vargas,Agencia,300,Veronica Solorzano,0959081935,agencia.machala@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-10,Agencia Portoviejo,Portoviejo,Av. Manabi y Ricaurte,Agencia,150,Hugo Villamar,0988220482,agencia.portoviejo@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-11,Agencia Santo Domingo,Santo Domingo,Av. Quito y Rio Toachi,Agencia,300,Mishell Andrade,0917784483,agencia.santo.domingo@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"
+SUC-12,Agencia Ibarra,Ibarra,Av. Mariano Acosta y Sanchez y Cifuentes,Agencia,150,Patricio Cando,0978106871,agencia.ibarra@andescargo.ec,"Lunes a Viernes 08:00-18:00, Sabados 08:00-13:00"

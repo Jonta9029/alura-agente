@@ -1,0 +1,35 @@
+id,categoria,pregunta,respuesta
+FAQ-01,Envios,¿Cuanto tiempo tarda un envio Estandar?,El envio Estandar tarda entre 3 y 4 dias habiles a nivel nacional.
+FAQ-02,Envios,¿Cual es el peso maximo permitido en un envio Express?,El envio Express admite paquetes de hasta 25 kilogramos.
+FAQ-03,Envios,¿En que ciudades esta disponible el envio Mismo Dia?,"El servicio Mismo Dia esta disponible en Quito, Guayaquil, Cuenca y Manta."
+FAQ-04,Rastreo,¿Como puedo rastrear mi pedido?,"Puedes rastrear tu pedido ingresando el numero de seguimiento en la app, la pagina web o consultando por WhatsApp."
+FAQ-05,Rastreo,¿Que significa el estado 'En Bodega'?,Significa que el paquete ya llego a una sucursal y esta a la espera de ser clasificado o asignado a un mensajero.
+FAQ-06,Rastreo,¿Cuanto tiempo permanece disponible el historial de rastreo?,El historial de rastreo esta disponible durante 90 dias despues de la entrega.
+FAQ-07,Reembolsos,¿Que hago si mi paquete llega danado?,Debes reportarlo dentro de los 5 dias posteriores a la entrega adjuntando fotografias y el numero de seguimiento.
+FAQ-08,Reembolsos,¿Cuanto tiempo tarda la resolucion de un reembolso por paquete perdido?,La resolucion de un reembolso por paquete perdido toma hasta 10 dias habiles.
+FAQ-09,Reembolsos,¿Se reembolsa el costo total si el envio se retrasa?,"En caso de retraso se reembolsa el 50% del costo del envio, siempre que se reclame dentro de 15 dias."
+FAQ-10,Reclamos,¿Como presento un reclamo?,"Puedes presentar un reclamo a traves de la app, la pagina web, el call center o directamente en cualquier sucursal."
+FAQ-11,Reclamos,¿Cuanto tiempo tiene la empresa para responder un reclamo?,"El tiempo de resolucion depende del tipo de incidente, y varia entre 2 y 20 dias habiles."
+FAQ-12,Reclamos,¿Puedo dar seguimiento a mi reclamo?,"Si, cada reclamo recibe un numero de caso que permite consultar su estado en cualquier momento."
+FAQ-13,Pagos,¿Que metodos de pago se aceptan?,"Se aceptan tarjetas de credito, debito, transferencia bancaria y pago en efectivo en sucursal."
+FAQ-14,Pagos,¿Que hago si me realizaron un cobro duplicado?,Debes reportarlo dentro de los 30 dias adjuntando el comprobante de pago y el numero de pedido.
+FAQ-15,Envios Internacionales,¿A que paises se puede enviar actualmente?,"Actualmente se realizan envios internacionales a paises de la Comunidad Andina, Estados Unidos y España."
+FAQ-16,Envios Internacionales,¿Que documentos se necesitan para un envio internacional?,Se requiere documentacion aduanera y una declaracion detallada del contenido del paquete.
+FAQ-17,Seguros,¿El seguro de envio es obligatorio?,"No, el seguro es un servicio opcional adicional al costo base del envio."
+FAQ-18,Seguros,¿Cual es el monto maximo cubierto por el seguro?,El seguro cubre hasta un valor declarado maximo de 500 dolares por paquete.
+FAQ-19,Sucursales,¿Cual es el horario de atencion de las sucursales?,Las sucursales atienden de lunes a viernes de 08:00 a 18:00 y sabados de 08:00 a 13:00.
+FAQ-20,Sucursales,¿En que ciudades tiene sucursales la empresa?,"La empresa cuenta con sucursales en Quito, Guayaquil, Cuenca, Manta, Ambato, Loja, Machala, Portoviejo, Santo Domingo e Ibarra."
+FAQ-21,Recoleccion,¿Puedo solicitar que recojan el paquete en mi domicilio?,"Si, el servicio de recoleccion a domicilio esta disponible en horario de 08:00 a 16:00."
+FAQ-22,Recoleccion,¿Tiene costo adicional la recoleccion a domicilio?,"Si, tiene un costo base adicional de 2.5 dolares sobre el valor del envio."
+FAQ-23,Cancelaciones,¿Puedo cancelar un envio despues de solicitarlo?,"Si, siempre que se cancele antes de que el transportista retire el paquete, con un reembolso del 90%."
+FAQ-24,Carga Pesada,¿Cual es el peso maximo para el servicio de Carga Pesada?,El servicio de Carga Pesada admite paquetes o pallets de hasta 500 kilogramos.
+FAQ-25,Entrega Programada,¿Con cuanto tiempo de anticipacion debo programar una entrega?,La entrega programada debe solicitarse con un minimo de 24 horas de anticipacion.
+FAQ-26,Entrega Programada,¿Como puedo hacer para elegir la fecha y franja horaria de entrega?,"Para programar una entrega con fecha y hora especificas, debes solicitar el servicio de Entrega Programada con al menos 24 horas de anticipacion en el momento de contratar el envio. Esta disponible en Quito, Guayaquil y Cuenca."
+FAQ-27,Envios,¿Como puedo hacer un envio de Carga Pesada?,"Para enviar paquetes grandes o pallets de hasta 500 kg, debes solicitar el servicio de Carga Pesada y coordinar previamente la recoleccion para que se asigne un vehiculo especializado de Andes Cargo."
+FAQ-28,Reembolsos,¿Como puedo solicitar un reembolso por paquete perdido o danado?,"Debes presentar el reclamo a traves de la app o call center dentro de los 5 dias posteriores a la entrega (o fecha estimada), adjuntando el numero de seguimiento y fotos del paquete danado. La resolucion toma hasta 10 dias habiles."
+FAQ-29,Cancelaciones,¿Como puedo cancelar mi envio despues de solicitarlo?,"Puedes solicitar la cancelacion desde la app o sucursal antes de que el transportista retire el paquete, obteniendo un reembolso del 90% del costo base."
+FAQ-30,Seguros,¿Como puedo contratar el seguro opcional para mi paquete?,"Al momento de registrar tu envio, solicita el servicio de Embalaje y Seguro Opcional por un costo base de USD 3.5. Cubre perdidas o danos hasta un valor maximo declarado de USD 500."
+FAQ-31,Rastreo,¿Como puedo hacer el seguimiento y rastreo de mi paquete?,"Ingresa el numero de seguimiento en nuestra pagina web, app movil o escribenos a nuestro canal de WhatsApp para conocer el estado en tiempo real (ej. En Bodega, En Transito)."
+FAQ-32,Pagos,¿Como puedo pagar por mi envio en Andes Cargo?,"Aceptamos tarjetas de credito, debito, transferencia bancaria y pago en efectivo directamente en nuestras sucursales de atencion al cliente."
+
+

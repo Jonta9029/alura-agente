@@ -1,0 +1,9 @@
+id,paso,nombre_paso,descripcion,responsable,canal,tiempo_estimado
+PRO-01,1,Generacion de guia,Al crear el pedido se genera un numero de seguimiento unico asociado al paquete.,Sistema / Agente de sucursal,"App, web, sucursal fisica",Inmediato
+PRO-02,2,Recepcion en sucursal de origen,El paquete se registra fisicamente al ingresar a la sucursal o al ser recolectado a domicilio.,Personal de bodega,Escaneo de codigo de barras,Menos de 1 hora tras recoleccion
+PRO-03,3,Clasificacion y ruteo,El paquete se clasifica segun destino y se asigna a una ruta de transporte.,Coordinador de logistica,Sistema interno de ruteo,2-4 horas
+PRO-04,4,Transito entre sucursales,El paquete viaja hacia la sucursal o centro de distribucion mas cercano al destino.,Transportista asignado,GPS del vehiculo,Segun distancia de la ruta
+PRO-05,5,Recepcion en sucursal destino,El paquete se escanea al llegar a la sucursal encargada de la entrega final.,Personal de bodega destino,Escaneo de codigo de barras,Menos de 1 hora
+PRO-06,6,Asignacion a mensajero,El paquete se asigna a un mensajero para la entrega final al destinatario.,Coordinador de reparto,App de mensajeria interna,Mismo dia habil
+PRO-07,7,Entrega al destinatario,El mensajero entrega el paquete y registra firma o foto como evidencia.,Mensajero,App de mensajeria interna,Segun franja horaria pactada
+PRO-08,8,Consulta de estado por el cliente,El cliente puede consultar el estado del envio en cualquier momento con su numero de seguimiento.,Cliente / Atencion al cliente,"App, web, call center, WhatsApp",Disponible 24/7

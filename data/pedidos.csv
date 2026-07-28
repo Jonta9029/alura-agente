@@ -1,0 +1,321 @@
+id_pedido,numero_seguimiento,cliente,ciudad_origen,ciudad_destino,sucursal_origen,tipo_envio,peso_kg,fecha_pedido,fecha_entrega_estimada,estado,costo_usd
+PED-00001,AC551646166EC,Karla Villacis,Cuenca,Portoviejo,SUC-05,Estandar,6.3,2026-01-27,2026-01-31,Entregado,15.38
+PED-00002,AC285055879EC,Monica Rodriguez,Machala,Guayaquil,SUC-09,Express,1.3,2025-03-26,2025-03-28,En Bodega,8.45
+PED-00003,AC701613399EC,Bryan Chavez,Loja,Santo Domingo,SUC-08,Express,25.3,2024-11-29,2024-12-01,En Transito,69.34
+PED-00004,AC575934338EC,Nicole Vera,Guayaquil,Manta,SUC-04,Estandar,34.9,2025-06-03,2025-06-07,En Transito,64.18
+PED-00005,AC365918391EC,Bryan Villacis,Portoviejo,Machala,SUC-10,Express,9.4,2024-10-10,2024-10-12,En Transito,28.94
+PED-00006,AC559925153EC,Jorge Macias,Machala,Guayaquil,SUC-09,Mismo Dia,6.6,2024-05-04,2024-05-04,Entregado,23.8
+PED-00007,AC371772468EC,Jose Rodriguez,Guayaquil,Ambato,SUC-03,Mismo Dia,40.4,2024-06-07,2024-06-07,Cancelado,118.11
+PED-00008,AC273372860EC,Priscila Macias,Loja,Guayaquil,SUC-08,Express,4.7,2026-06-25,2026-06-27,En Transito,19.97
+PED-00009,AC592493986EC,Paula Moreira,Machala,Ambato,SUC-09,Estandar,9.2,2024-11-22,2024-11-26,Entregado,21.27
+PED-00010,AC212506236EC,Wilson Macias,Ibarra,Quito,SUC-12,Estandar,23.5,2024-10-29,2024-11-02,En Transito,44.42
+PED-00011,AC535883162EC,Marco Salazar,Cuenca,Manta,SUC-05,Estandar,35.2,2024-10-03,2024-10-07,En Bodega,103.76
+PED-00012,AC177754046EC,Luis Vargas,Machala,Portoviejo,SUC-09,Express,31.7,2024-04-01,2024-04-03,Entregado,97.55
+PED-00013,AC112397776EC,Juan Cedeño,Quito,Guayaquil,SUC-02,Mismo Dia,4.2,2026-05-26,2026-05-26,Entregado,18.11
+PED-00014,AC381207931EC,Juan Cevallos,Machala,Ambato,SUC-09,Internacional,12.4,2024-05-12,2024-05-22,Entregado,59.64
+PED-00015,AC390471177EC,Melissa Cevallos,Guayaquil,Manta,SUC-04,Internacional,28.5,2025-06-27,2025-07-07,En Bodega,87.87
+PED-00016,AC580022247EC,Bryan Macias,Quito,Ambato,SUC-01,Estandar,1.3,2025-06-01,2025-06-05,En Transito,2.68
+PED-00017,AC346494886EC,Diego Loor,Santo Domingo,Ibarra,SUC-11,Estandar,22.5,2026-05-04,2026-05-08,Devuelto,71.06
+PED-00018,AC562504317EC,Cynthia Salazar,Guayaquil,Cuenca,SUC-03,Estandar,16.0,2024-02-25,2024-02-29,Pendiente de Retiro,29.12
+PED-00019,AC148573390EC,Andres Andrade,Quito,Guayaquil,SUC-02,Express,17.4,2025-06-02,2025-06-04,En Transito,43.19
+PED-00020,AC362472429EC,Christian Herrera,Guayaquil,Cuenca,SUC-03,Estandar,0.7,2025-01-07,2025-01-11,Cancelado,2.21
+PED-00021,AC366480598EC,Cynthia Loor,Cuenca,Guayaquil,SUC-05,Estandar,0.5,2025-01-25,2025-01-29,Entregado,1.1
+PED-00022,AC190712619EC,Diego Macias,Quito,Ambato,SUC-01,Mismo Dia,6.9,2025-08-23,2025-08-23,Entregado,21.64
+PED-00023,AC147017079EC,Cynthia Rodriguez,Santo Domingo,Portoviejo,SUC-11,Estandar,15.0,2025-05-21,2025-05-25,Entregado,42.21
+PED-00024,AC956810741EC,Maria Jose Alvarado,Ibarra,Machala,SUC-12,Estandar,23.8,2025-05-31,2025-06-04,En Transito,69.93
+PED-00025,AC772405542EC,Carlos Zambrano,Quito,Guayaquil,SUC-01,Estandar,28.9,2024-04-17,2024-04-21,Entregado,70.28
+PED-00026,AC170921024EC,Sofia Villacis,Loja,Cuenca,SUC-08,Estandar,36.0,2026-02-05,2026-02-09,Cancelado,110.05
+PED-00027,AC510771188EC,Ana Suarez,Cuenca,Quito,SUC-05,Mismo Dia,10.9,2026-02-13,2026-02-13,Entregado,39.91
+PED-00028,AC372666299EC,Valentina Herrera,Loja,Ibarra,SUC-08,Estandar,2.6,2025-10-09,2025-10-13,En Transito,4.96
+PED-00029,AC825535575EC,Estefania Loor,Portoviejo,Santo Domingo,SUC-10,Estandar,22.0,2025-05-12,2025-05-16,Entregado,60.3
+PED-00030,AC192185305EC,Camila Andrade,Cuenca,Portoviejo,SUC-05,Estandar,21.2,2026-02-24,2026-02-28,Entregado,64.68
+PED-00031,AC180114953EC,Wilson Loor,Quito,Ambato,SUC-01,Express,37.0,2025-04-05,2025-04-07,Retrasado,91.64
+PED-00032,AC855202395EC,Nicole Chavez,Guayaquil,Santo Domingo,SUC-04,Estandar,16.5,2025-09-09,2025-09-13,Pendiente de Retiro,41.45
+PED-00033,AC535315694EC,Jorge Cedeño,Guayaquil,Portoviejo,SUC-04,Internacional,22.1,2024-01-26,2024-02-05,Entregado,94.17
+PED-00034,AC527627946EC,Monica Herrera,Ibarra,Guayaquil,SUC-12,Estandar,17.2,2024-05-03,2024-05-07,Pendiente de Retiro,31.0
+PED-00035,AC182034622EC,Marco Alvarado,Guayaquil,Quito,SUC-04,Internacional,13.4,2025-01-16,2025-01-26,Entregado,56.44
+PED-00036,AC367710374EC,Wilson Rodriguez,Ambato,Cuenca,SUC-07,Internacional,13.0,2024-02-22,2024-03-03,Pendiente de Retiro,53.6
+PED-00037,AC695017231EC,Fernando Sanchez,Ambato,Portoviejo,SUC-07,Estandar,34.9,2026-03-14,2026-03-18,Cancelado,106.03
+PED-00038,AC621382272EC,Marco Andrade,Ibarra,Quito,SUC-12,Estandar,33.1,2025-04-06,2025-04-10,En Transito,66.0
+PED-00039,AC536163878EC,Cynthia Salazar,Machala,Guayaquil,SUC-09,Estandar,19.0,2024-10-15,2024-10-19,Entregado,53.86
+PED-00040,AC690973051EC,Melissa Suarez,Cuenca,Machala,SUC-05,Express,18.0,2024-06-20,2024-06-22,En Transito,39.29
+PED-00041,AC696865256EC,Luis Herrera,Loja,Manta,SUC-08,Carga Pesada,20.5,2024-05-22,2024-05-28,En Transito,58.91
+PED-00042,AC544404100EC,Kevin Sanchez,Manta,Guayaquil,SUC-06,Estandar,36.5,2024-07-25,2024-07-29,Devuelto,104.01
+PED-00043,AC668251762EC,Jorge Villacis,Ambato,Cuenca,SUC-07,Estandar,3.3,2024-10-11,2024-10-15,En Transito,7.6
+PED-00044,AC236630450EC,Marco Zambrano,Quito,Ambato,SUC-01,Internacional,17.6,2025-10-23,2025-11-02,Entregado,80.19
+PED-00045,AC602673754EC,Priscila Villacis,Ambato,Machala,SUC-07,Carga Pesada,22.3,2024-03-15,2024-03-21,Entregado,84.08
+PED-00046,AC191271686EC,Estefania Cedeño,Guayaquil,Quito,SUC-03,Estandar,7.3,2025-11-29,2025-12-03,Entregado,21.58
+PED-00047,AC667207488EC,Cynthia Salazar,Quito,Cuenca,SUC-02,Estandar,41.4,2025-10-22,2025-10-26,En Bodega,130.3
+PED-00048,AC101236980EC,Fernando Bravo,Ibarra,Quito,SUC-12,Estandar,13.9,2025-08-19,2025-08-23,Entregado,30.1
+PED-00049,AC352080325EC,Bryan Villacis,Machala,Cuenca,SUC-09,Carga Pesada,12.9,2024-11-19,2024-11-25,En Transito,54.18
+PED-00050,AC187071946EC,Cynthia Vargas,Quito,Machala,SUC-02,Express,14.2,2024-01-23,2024-01-25,Entregado,48.15
+PED-00051,AC312686399EC,Jose Sanchez,Guayaquil,Machala,SUC-03,Internacional,10.6,2024-02-04,2024-02-14,En Transito,54.74
+PED-00052,AC337772408EC,Andres Cedeño,Cuenca,Portoviejo,SUC-05,Estandar,22.6,2024-07-24,2024-07-28,Entregado,66.62
+PED-00053,AC738663965EC,Wilson Mendoza,Cuenca,Quito,SUC-05,Carga Pesada,22.6,2024-07-10,2024-07-16,Devuelto,71.03
+PED-00054,AC582799376EC,Luis Sanchez,Ambato,Quito,SUC-07,Estandar,43.8,2024-05-25,2024-05-29,Entregado,122.37
+PED-00055,AC134245587EC,Melissa Cedeño,Ibarra,Quito,SUC-12,Carga Pesada,42.0,2024-12-03,2024-12-09,Entregado,128.97
+PED-00056,AC477384670EC,Gabriela Vera,Santo Domingo,Ambato,SUC-11,Mismo Dia,44.3,2025-03-29,2025-03-29,Entregado,88.92
+PED-00057,AC194231867EC,Fernando Vargas,Quito,Santo Domingo,SUC-01,Carga Pesada,9.7,2024-12-31,2025-01-06,En Bodega,36.65
+PED-00058,AC132515111EC,Nicole Suarez,Ibarra,Loja,SUC-12,Estandar,24.6,2025-04-02,2025-04-06,Entregado,56.82
+PED-00059,AC750275541EC,Camila Vera,Guayaquil,Machala,SUC-04,Estandar,2.1,2024-03-05,2024-03-09,Pendiente de Retiro,3.96
+PED-00060,AC419337133EC,Paula Salazar,Manta,Cuenca,SUC-06,Estandar,42.9,2024-02-14,2024-02-18,Entregado,120.26
+PED-00061,AC933606632EC,Bryan Cedeño,Ibarra,Portoviejo,SUC-12,Internacional,28.7,2024-03-07,2024-03-17,Entregado,86.06
+PED-00062,AC983426727EC,Ricardo Andrade,Cuenca,Loja,SUC-05,Mismo Dia,6.4,2025-05-23,2025-05-23,Entregado,27.71
+PED-00063,AC520569001EC,Melissa Loor,Portoviejo,Guayaquil,SUC-10,Estandar,14.7,2025-01-05,2025-01-09,En Bodega,38.72
+PED-00064,AC177486627EC,Kevin Chavez,Guayaquil,Machala,SUC-04,Estandar,2.0,2025-07-19,2025-07-23,En Transito,4.05
+PED-00065,AC594913127EC,Valentina Vargas,Portoviejo,Quito,SUC-10,Estandar,19.2,2025-12-27,2025-12-31,Retrasado,39.22
+PED-00066,AC387404051EC,Gabriela Alvarado,Ibarra,Machala,SUC-12,Mismo Dia,30.1,2024-05-04,2024-05-04,En Bodega,75.57
+PED-00067,AC302132044EC,Wilson Alvarado,Cuenca,Manta,SUC-05,Estandar,11.5,2024-09-08,2024-09-12,Entregado,25.23
+PED-00068,AC139753296EC,Cynthia Cedeño,Quito,Machala,SUC-01,Estandar,11.4,2025-06-22,2025-06-26,Entregado,33.42
+PED-00069,AC228007885EC,Diego Macias,Quito,Portoviejo,SUC-01,Internacional,10.8,2025-04-04,2025-04-14,Devuelto,45.05
+PED-00070,AC379117276EC,Ana Bravo,Guayaquil,Ibarra,SUC-03,Carga Pesada,26.5,2024-03-17,2024-03-23,Entregado,94.83
+PED-00071,AC141055588EC,Camila Salazar,Quito,Ibarra,SUC-01,Express,16.1,2024-02-08,2024-02-10,Entregado,37.17
+PED-00072,AC688458656EC,Fernando Suarez,Quito,Loja,SUC-02,Estandar,17.0,2025-09-27,2025-10-01,Entregado,35.44
+PED-00073,AC527104575EC,Cynthia Cevallos,Quito,Machala,SUC-02,Estandar,18.1,2025-07-17,2025-07-21,Entregado,46.11
+PED-00074,AC547154828EC,Jose Vargas,Ambato,Cuenca,SUC-07,Express,19.1,2024-02-22,2024-02-24,Entregado,54.53
+PED-00075,AC221911884EC,Luis Vargas,Manta,Ibarra,SUC-06,Estandar,32.9,2024-07-27,2024-07-31,Cancelado,79.22
+PED-00076,AC195596428EC,Valentina Sanchez,Ambato,Santo Domingo,SUC-07,Internacional,21.0,2024-06-15,2024-06-25,Entregado,64.32
+PED-00077,AC626680725EC,Juan Sanchez,Ibarra,Machala,SUC-12,Estandar,16.0,2024-06-14,2024-06-18,En Transito,49.53
+PED-00078,AC192657934EC,Cynthia Sanchez,Cuenca,Guayaquil,SUC-05,Mismo Dia,2.4,2025-05-09,2025-05-09,Entregado,15.36
+PED-00079,AC529223548EC,Camila Mendoza,Santo Domingo,Guayaquil,SUC-11,Express,27.9,2024-07-19,2024-07-21,Pendiente de Retiro,62.37
+PED-00080,AC913317829EC,Nicole Moreira,Ambato,Manta,SUC-07,Estandar,11.5,2026-01-12,2026-01-16,Pendiente de Retiro,23.8
+PED-00081,AC430939711EC,Cynthia Vargas,Santo Domingo,Manta,SUC-11,Estandar,27.2,2025-07-17,2025-07-21,Pendiente de Retiro,78.59
+PED-00082,AC352598759EC,Bryan Cedeño,Ambato,Loja,SUC-07,Express,20.4,2025-03-24,2025-03-26,Entregado,41.82
+PED-00083,AC198476237EC,Kevin Ortiz,Portoviejo,Loja,SUC-10,Mismo Dia,36.6,2025-02-13,2025-02-13,Entregado,81.46
+PED-00084,AC185864942EC,Monica Villacis,Machala,Portoviejo,SUC-09,Express,2.3,2024-05-13,2024-05-15,Entregado,11.5
+PED-00085,AC307991633EC,Ricardo Chavez,Machala,Ambato,SUC-09,Express,35.4,2024-01-27,2024-01-29,Pendiente de Retiro,118.09
+PED-00086,AC994465685EC,Andres Vera,Loja,Cuenca,SUC-08,Carga Pesada,41.3,2024-06-18,2024-06-24,En Transito,131.03
+PED-00087,AC615511585EC,Gabriela Villacis,Portoviejo,Cuenca,SUC-10,Estandar,40.4,2024-10-08,2024-10-12,Devuelto,98.53
+PED-00088,AC829800793EC,Luis Salazar,Portoviejo,Cuenca,SUC-10,Express,11.1,2025-01-16,2025-01-18,Entregado,27.81
+PED-00089,AC696120119EC,Jose Cedeño,Ambato,Guayaquil,SUC-07,Mismo Dia,12.3,2026-02-25,2026-02-25,En Transito,42.1
+PED-00090,AC256976160EC,Jose Alvarado,Cuenca,Portoviejo,SUC-05,Express,18.0,2026-03-27,2026-03-29,Entregado,46.87
+PED-00091,AC432937745EC,Melissa Salazar,Manta,Quito,SUC-06,Estandar,8.4,2026-01-31,2026-02-04,Cancelado,18.61
+PED-00092,AC151299481EC,Melissa Ortiz,Ibarra,Quito,SUC-12,Express,10.4,2024-10-24,2024-10-26,En Transito,30.01
+PED-00093,AC483488556EC,Juan Villacis,Loja,Guayaquil,SUC-08,Express,2.5,2024-02-25,2024-02-27,Entregado,10.74
+PED-00094,AC960607053EC,Valentina Zambrano,Ambato,Santo Domingo,SUC-07,Estandar,6.5,2025-01-10,2025-01-14,En Transito,16.02
+PED-00095,AC112343783EC,Daniela Salazar,Ibarra,Guayaquil,SUC-12,Express,3.3,2024-05-28,2024-05-30,Pendiente de Retiro,14.55
+PED-00096,AC366821641EC,Ricardo Suarez,Santo Domingo,Machala,SUC-11,Internacional,27.0,2025-08-15,2025-08-25,Entregado,109.02
+PED-00097,AC113260810EC,Monica Chavez,Quito,Guayaquil,SUC-01,Estandar,1.6,2024-07-09,2024-07-13,Entregado,3.01
+PED-00098,AC646079341EC,Pedro Cevallos,Guayaquil,Machala,SUC-04,Estandar,27.6,2025-06-03,2025-06-07,En Transito,65.73
+PED-00099,AC568846644EC,Maria Jose Sanchez,Quito,Ambato,SUC-02,Express,44.7,2026-01-11,2026-01-13,En Bodega,130.23
+PED-00100,AC864165121EC,Paula Salazar,Quito,Portoviejo,SUC-01,Estandar,44.8,2024-09-24,2024-09-28,Entregado,83.07
+PED-00101,AC191720218EC,Diego Loor,Cuenca,Ibarra,SUC-05,Express,19.9,2026-03-18,2026-03-20,Devuelto,67.9
+PED-00102,AC517371153EC,Paula Loor,Guayaquil,Ambato,SUC-04,Internacional,38.0,2024-07-26,2024-08-05,Cancelado,133.1
+PED-00103,AC606957016EC,Christian Suarez,Portoviejo,Guayaquil,SUC-10,Estandar,38.4,2025-12-10,2025-12-14,Retrasado,114.36
+PED-00104,AC183539632EC,Pedro Alvarado,Quito,Machala,SUC-01,Carga Pesada,10.9,2026-06-24,2026-06-30,Entregado,37.85
+PED-00105,AC144720749EC,Maria Jose Zambrano,Guayaquil,Quito,SUC-03,Estandar,5.2,2024-06-14,2024-06-18,Entregado,10.39
+PED-00106,AC314009839EC,Monica Ortiz,Ibarra,Santo Domingo,SUC-12,Express,31.5,2026-01-24,2026-01-26,Entregado,99.47
+PED-00107,AC985901714EC,Wilson Vera,Ibarra,Ambato,SUC-12,Estandar,9.7,2024-04-24,2024-04-28,Entregado,30.35
+PED-00108,AC122461027EC,Kevin Salazar,Loja,Quito,SUC-08,Estandar,35.7,2025-10-23,2025-10-27,Entregado,80.21
+PED-00109,AC763868645EC,Bryan Andrade,Cuenca,Manta,SUC-05,Estandar,34.3,2024-11-24,2024-11-28,En Bodega,90.65
+PED-00110,AC867070496EC,Karla Loor,Ambato,Quito,SUC-07,Estandar,34.9,2024-12-21,2024-12-25,En Transito,65.17
+PED-00111,AC473451350EC,Carlos Zambrano,Portoviejo,Cuenca,SUC-10,Estandar,0.6,2024-07-25,2024-07-29,Entregado,1.71
+PED-00112,AC720630711EC,Melissa Salazar,Quito,Portoviejo,SUC-01,Express,37.2,2025-05-21,2025-05-23,En Transito,121.81
+PED-00113,AC946016293EC,Sofia Suarez,Cuenca,Guayaquil,SUC-05,Internacional,10.8,2024-06-18,2024-06-28,Entregado,54.06
+PED-00114,AC499378270EC,Kevin Zambrano,Santo Domingo,Manta,SUC-11,Estandar,18.4,2025-02-08,2025-02-12,Devuelto,52.32
+PED-00115,AC236236920EC,Andres Cedeño,Cuenca,Manta,SUC-05,Estandar,24.7,2024-06-24,2024-06-28,Entregado,75.03
+PED-00116,AC597311188EC,Paula Cevallos,Manta,Santo Domingo,SUC-06,Estandar,7.4,2026-05-13,2026-05-17,En Transito,19.06
+PED-00117,AC387207453EC,Melissa Loor,Ibarra,Cuenca,SUC-12,Express,6.1,2025-04-18,2025-04-20,En Transito,21.93
+PED-00118,AC353631833EC,Jose Cevallos,Ibarra,Portoviejo,SUC-12,Estandar,7.4,2024-09-10,2024-09-14,En Bodega,19.57
+PED-00119,AC262092165EC,Camila Sanchez,Guayaquil,Ambato,SUC-03,Carga Pesada,32.9,2024-04-14,2024-04-20,Entregado,104.52
+PED-00120,AC598126398EC,Nicole Sanchez,Cuenca,Manta,SUC-05,Estandar,9.2,2025-10-15,2025-10-19,Devuelto,20.18
+PED-00121,AC252270047EC,Ana Zambrano,Quito,Machala,SUC-02,Internacional,19.9,2024-08-15,2024-08-25,En Transito,78.44
+PED-00122,AC345419390EC,Ricardo Vargas,Portoviejo,Ambato,SUC-10,Estandar,11.3,2026-05-23,2026-05-27,Entregado,29.42
+PED-00123,AC360270855EC,Nicole Vargas,Santo Domingo,Guayaquil,SUC-11,Express,20.7,2024-11-16,2024-11-18,Entregado,62.56
+PED-00124,AC825038807EC,Kevin Villacis,Ibarra,Santo Domingo,SUC-12,Estandar,38.3,2025-05-09,2025-05-13,En Transito,102.27
+PED-00125,AC333948467EC,Gabriela Moreira,Santo Domingo,Manta,SUC-11,Mismo Dia,17.8,2025-05-16,2025-05-16,Devuelto,43.69
+PED-00126,AC117294172EC,Bryan Villacis,Ibarra,Guayaquil,SUC-12,Express,5.0,2025-08-11,2025-08-13,En Transito,15.43
+PED-00127,AC882872121EC,Melissa Chavez,Machala,Manta,SUC-09,Estandar,42.7,2024-08-03,2024-08-07,Retrasado,87.85
+PED-00128,AC722958433EC,Kevin Ortiz,Santo Domingo,Quito,SUC-11,Estandar,17.5,2024-03-03,2024-03-07,Entregado,41.76
+PED-00129,AC327646990EC,Daniela Cedeño,Quito,Manta,SUC-01,Estandar,18.3,2025-06-23,2025-06-27,Retrasado,58.41
+PED-00130,AC479172294EC,Priscila Rodriguez,Guayaquil,Quito,SUC-04,Mismo Dia,28.7,2025-04-25,2025-04-25,En Transito,89.62
+PED-00131,AC387144852EC,Marco Macias,Loja,Cuenca,SUC-08,Mismo Dia,29.4,2026-03-09,2026-03-09,Pendiente de Retiro,76.52
+PED-00132,AC363031559EC,Gabriela Ortiz,Santo Domingo,Cuenca,SUC-11,Carga Pesada,30.7,2025-05-08,2025-05-14,Entregado,101.28
+PED-00133,AC513509462EC,Wilson Andrade,Manta,Machala,SUC-06,Express,28.2,2024-03-28,2024-03-30,En Transito,70.07
+PED-00134,AC805773966EC,Karla Zambrano,Quito,Ibarra,SUC-01,Internacional,35.4,2024-05-23,2024-06-02,En Transito,105.83
+PED-00135,AC471991495EC,Luis Cedeño,Guayaquil,Quito,SUC-03,Express,11.6,2024-04-13,2024-04-15,En Transito,39.75
+PED-00136,AC946187826EC,Jorge Moreira,Guayaquil,Machala,SUC-04,Mismo Dia,8.0,2025-12-05,2025-12-05,En Transito,32.15
+PED-00137,AC227155277EC,Juan Moreira,Guayaquil,Portoviejo,SUC-04,Express,24.1,2026-01-29,2026-01-31,Pendiente de Retiro,71.03
+PED-00138,AC364748886EC,Valentina Suarez,Ambato,Guayaquil,SUC-07,Mismo Dia,21.6,2025-07-24,2025-07-24,Entregado,62.0
+PED-00139,AC814361021EC,Karla Suarez,Guayaquil,Santo Domingo,SUC-04,Express,33.2,2024-06-13,2024-06-15,Pendiente de Retiro,86.51
+PED-00140,AC122075886EC,Cynthia Zambrano,Loja,Manta,SUC-08,Estandar,45.0,2025-11-23,2025-11-27,Entregado,121.13
+PED-00141,AC871144324EC,Carlos Loor,Santo Domingo,Manta,SUC-11,Mismo Dia,4.7,2025-05-10,2025-05-10,En Transito,23.37
+PED-00142,AC405104873EC,Christian Loor,Santo Domingo,Guayaquil,SUC-11,Estandar,38.8,2025-01-09,2025-01-13,Entregado,112.13
+PED-00143,AC640896552EC,Daniela Herrera,Manta,Loja,SUC-06,Estandar,2.8,2024-10-23,2024-10-27,Entregado,8.28
+PED-00144,AC236977996EC,Estefania Andrade,Machala,Manta,SUC-09,Carga Pesada,29.6,2026-03-21,2026-03-27,Entregado,76.25
+PED-00145,AC149818055EC,Juan Zambrano,Quito,Machala,SUC-01,Express,39.9,2025-07-12,2025-07-14,En Transito,99.08
+PED-00146,AC773036690EC,Pedro Rodriguez,Loja,Santo Domingo,SUC-08,Mismo Dia,3.2,2025-05-27,2025-05-27,Devuelto,17.5
+PED-00147,AC552658861EC,Marco Mendoza,Guayaquil,Quito,SUC-03,Express,20.9,2026-02-19,2026-02-21,Entregado,62.04
+PED-00148,AC298402068EC,Marco Andrade,Santo Domingo,Quito,SUC-11,Estandar,37.1,2026-03-16,2026-03-20,Entregado,103.66
+PED-00149,AC142283358EC,Karla Villacis,Quito,Loja,SUC-01,Estandar,25.7,2025-08-15,2025-08-19,Cancelado,48.23
+PED-00150,AC610508846EC,Karla Rodriguez,Ambato,Santo Domingo,SUC-07,Express,18.5,2024-03-09,2024-03-11,Entregado,48.33
+PED-00151,AC194638842EC,Maria Jose Chavez,Machala,Quito,SUC-09,Estandar,21.5,2024-06-04,2024-06-08,En Transito,51.55
+PED-00152,AC492853874EC,Luis Mendoza,Quito,Cuenca,SUC-01,Express,12.8,2025-08-05,2025-08-07,Entregado,41.19
+PED-00153,AC870098492EC,Gabriela Mendoza,Ibarra,Quito,SUC-12,Estandar,25.3,2025-05-25,2025-05-29,En Transito,78.56
+PED-00154,AC278237953EC,Diego Bravo,Quito,Guayaquil,SUC-02,Estandar,29.5,2026-04-16,2026-04-20,En Transito,69.16
+PED-00155,AC490053461EC,Valentina Chavez,Portoviejo,Quito,SUC-10,Estandar,42.7,2026-01-15,2026-01-19,Entregado,117.32
+PED-00156,AC413949542EC,Karla Herrera,Santo Domingo,Ambato,SUC-11,Express,35.1,2025-04-08,2025-04-10,Cancelado,106.74
+PED-00157,AC992589097EC,Ricardo Zambrano,Quito,Ibarra,SUC-01,Carga Pesada,31.8,2026-04-27,2026-05-03,En Transito,110.95
+PED-00158,AC967026595EC,Pedro Macias,Portoviejo,Cuenca,SUC-10,Express,43.9,2024-09-09,2024-09-11,Entregado,126.11
+PED-00159,AC409797543EC,Nicole Mendoza,Cuenca,Quito,SUC-05,Estandar,12.4,2024-06-10,2024-06-14,En Transito,36.49
+PED-00160,AC673976617EC,Bryan Ortiz,Portoviejo,Guayaquil,SUC-10,Estandar,38.4,2026-04-06,2026-04-10,En Transito,110.89
+PED-00161,AC751651987EC,Andres Andrade,Machala,Portoviejo,SUC-09,Express,17.5,2026-03-17,2026-03-19,En Bodega,59.33
+PED-00162,AC680423935EC,Daniela Cedeño,Santo Domingo,Ambato,SUC-11,Express,9.7,2024-09-17,2024-09-19,En Transito,22.59
+PED-00163,AC444663392EC,Priscila Villacis,Machala,Manta,SUC-09,Mismo Dia,10.9,2025-08-16,2025-08-16,En Transito,32.58
+PED-00164,AC706052959EC,Jose Alvarado,Machala,Santo Domingo,SUC-09,Estandar,10.0,2024-04-04,2024-04-08,Entregado,27.81
+PED-00165,AC945407997EC,Cynthia Cedeño,Ambato,Portoviejo,SUC-07,Internacional,11.5,2025-05-20,2025-05-30,Entregado,47.41
+PED-00166,AC622177326EC,Camila Alvarado,Guayaquil,Loja,SUC-03,Express,15.8,2025-06-15,2025-06-17,En Transito,35.52
+PED-00167,AC140663166EC,Valentina Salazar,Cuenca,Manta,SUC-05,Estandar,42.6,2026-02-24,2026-02-28,En Transito,112.98
+PED-00168,AC168919011EC,Ana Suarez,Guayaquil,Cuenca,SUC-04,Estandar,1.7,2024-02-05,2024-02-09,En Transito,5.13
+PED-00169,AC296140722EC,Melissa Sanchez,Quito,Guayaquil,SUC-02,Estandar,25.6,2025-10-18,2025-10-22,Entregado,79.08
+PED-00170,AC693601985EC,Jose Mendoza,Guayaquil,Loja,SUC-03,Carga Pesada,44.6,2024-08-15,2024-08-21,Entregado,154.08
+PED-00171,AC441109048EC,Juan Rodriguez,Quito,Ambato,SUC-01,Mismo Dia,32.1,2025-10-24,2025-10-24,En Bodega,88.51
+PED-00172,AC233298140EC,Gabriela Sanchez,Guayaquil,Ambato,SUC-04,Express,20.1,2025-10-30,2025-11-01,Entregado,50.3
+PED-00173,AC957757909EC,Ana Loor,Loja,Ambato,SUC-08,Estandar,11.1,2024-05-26,2024-05-30,Devuelto,33.84
+PED-00174,AC513475583EC,Ana Chavez,Guayaquil,Manta,SUC-03,Estandar,28.0,2025-01-17,2025-01-21,Devuelto,55.88
+PED-00175,AC456459817EC,Jose Rodriguez,Santo Domingo,Quito,SUC-11,Express,15.6,2026-04-22,2026-04-24,Entregado,35.6
+PED-00176,AC542147205EC,Gabriela Vargas,Ibarra,Quito,SUC-12,Estandar,20.6,2026-06-29,2026-07-03,Entregado,62.19
+PED-00177,AC589824542EC,Juan Herrera,Guayaquil,Quito,SUC-04,Estandar,37.9,2024-12-08,2024-12-12,Pendiente de Retiro,82.05
+PED-00178,AC227978332EC,Bryan Andrade,Quito,Cuenca,SUC-02,Carga Pesada,3.0,2026-03-17,2026-03-23,En Transito,21.29
+PED-00179,AC274154148EC,Diego Vargas,Guayaquil,Loja,SUC-03,Estandar,12.1,2024-09-01,2024-09-05,Devuelto,23.43
+PED-00180,AC102064836EC,Valentina Cedeño,Ibarra,Cuenca,SUC-12,Estandar,29.0,2025-03-28,2025-04-01,Pendiente de Retiro,66.04
+PED-00181,AC660120358EC,Priscila Cevallos,Guayaquil,Loja,SUC-03,Estandar,41.1,2024-08-11,2024-08-15,Entregado,84.38
+PED-00182,AC288246217EC,Monica Salazar,Ibarra,Guayaquil,SUC-12,Estandar,4.0,2024-03-30,2024-04-03,Devuelto,11.29
+PED-00183,AC538218710EC,Sofia Villacis,Guayaquil,Ibarra,SUC-03,Express,28.5,2024-07-15,2024-07-17,En Transito,64.37
+PED-00184,AC243110392EC,Kevin Suarez,Machala,Manta,SUC-09,Estandar,38.0,2026-06-04,2026-06-08,Cancelado,73.21
+PED-00185,AC482420536EC,Pedro Zambrano,Guayaquil,Cuenca,SUC-04,Express,44.4,2024-02-07,2024-02-09,Entregado,107.99
+PED-00186,AC718810062EC,Monica Sanchez,Machala,Quito,SUC-09,Estandar,32.3,2026-04-16,2026-04-20,Pendiente de Retiro,99.41
+PED-00187,AC361496728EC,Valentina Zambrano,Cuenca,Quito,SUC-05,Carga Pesada,22.5,2025-06-09,2025-06-15,Entregado,80.84
+PED-00188,AC850510397EC,Maria Jose Chavez,Guayaquil,Ibarra,SUC-03,Estandar,5.1,2024-09-13,2024-09-17,En Transito,16.0
+PED-00189,AC200831097EC,Juan Ortiz,Cuenca,Quito,SUC-05,Mismo Dia,28.8,2025-04-20,2025-04-20,En Transito,89.17
+PED-00190,AC247053919EC,Juan Sanchez,Quito,Ambato,SUC-01,Estandar,22.5,2025-05-27,2025-05-31,En Bodega,43.97
+PED-00191,AC845036422EC,Cynthia Sanchez,Guayaquil,Cuenca,SUC-04,Express,21.1,2025-02-10,2025-02-12,Entregado,67.38
+PED-00192,AC868292938EC,Andres Herrera,Portoviejo,Santo Domingo,SUC-10,Express,18.1,2024-02-23,2024-02-25,En Bodega,46.16
+PED-00193,AC367667133EC,Jorge Ortiz,Portoviejo,Manta,SUC-10,Mismo Dia,38.2,2024-02-24,2024-02-24,Entregado,85.6
+PED-00194,AC342105641EC,Melissa Zambrano,Santo Domingo,Ibarra,SUC-11,Estandar,5.4,2024-07-10,2024-07-14,Entregado,12.99
+PED-00195,AC136908431EC,Nicole Mendoza,Ambato,Loja,SUC-07,Mismo Dia,42.2,2025-10-10,2025-10-10,Entregado,142.87
+PED-00196,AC565672458EC,Melissa Zambrano,Santo Domingo,Portoviejo,SUC-11,Estandar,24.6,2024-02-06,2024-02-10,En Transito,52.91
+PED-00197,AC388204683EC,Wilson Villacis,Quito,Ambato,SUC-01,Estandar,16.0,2024-06-19,2024-06-23,Entregado,42.11
+PED-00198,AC719919428EC,Wilson Vargas,Loja,Santo Domingo,SUC-08,Express,7.1,2024-05-06,2024-05-08,En Transito,26.58
+PED-00199,AC798315881EC,Karla Macias,Cuenca,Guayaquil,SUC-05,Express,33.4,2024-10-21,2024-10-23,Pendiente de Retiro,93.64
+PED-00200,AC133245564EC,Priscila Andrade,Guayaquil,Santo Domingo,SUC-03,Express,21.0,2025-07-15,2025-07-17,Entregado,56.85
+PED-00201,AC447841361EC,Luis Macias,Manta,Guayaquil,SUC-06,Estandar,24.8,2025-08-22,2025-08-26,Entregado,76.73
+PED-00202,AC750606214EC,Christian Vera,Loja,Cuenca,SUC-08,Estandar,44.4,2024-10-29,2024-11-02,Entregado,81.27
+PED-00203,AC827631093EC,Melissa Macias,Loja,Ibarra,SUC-08,Estandar,17.8,2025-03-26,2025-03-30,Entregado,51.05
+PED-00204,AC202061027EC,Priscila Villacis,Ambato,Manta,SUC-07,Express,6.7,2024-07-26,2024-07-28,En Transito,25.03
+PED-00205,AC729035071EC,Kevin Moreira,Cuenca,Ibarra,SUC-05,Express,41.2,2024-05-10,2024-05-12,Entregado,85.12
+PED-00206,AC219213343EC,Pedro Bravo,Loja,Ambato,SUC-08,Carga Pesada,26.0,2025-03-03,2025-03-09,Pendiente de Retiro,71.97
+PED-00207,AC107260639EC,Daniela Herrera,Loja,Machala,SUC-08,Estandar,16.2,2024-12-27,2024-12-31,Entregado,41.76
+PED-00208,AC194413825EC,Karla Macias,Ambato,Machala,SUC-07,Estandar,24.4,2026-04-02,2026-04-06,Entregado,63.58
+PED-00209,AC150940546EC,Maria Jose Zambrano,Manta,Santo Domingo,SUC-06,Mismo Dia,43.2,2024-07-28,2024-07-28,Retrasado,140.66
+PED-00210,AC880734170EC,Melissa Villacis,Portoviejo,Loja,SUC-10,Estandar,24.4,2024-11-15,2024-11-19,En Transito,78.02
+PED-00211,AC346178667EC,Sofia Villacis,Ambato,Machala,SUC-07,Estandar,27.0,2024-12-25,2024-12-29,En Transito,48.99
+PED-00212,AC531258546EC,Kevin Suarez,Ambato,Manta,SUC-07,Express,29.4,2025-08-10,2025-08-12,Entregado,65.67
+PED-00213,AC986942220EC,Jose Vera,Portoviejo,Santo Domingo,SUC-10,Estandar,24.1,2026-04-15,2026-04-19,Entregado,55.62
+PED-00214,AC777639817EC,Melissa Vargas,Machala,Guayaquil,SUC-09,Estandar,40.3,2025-12-07,2025-12-11,Entregado,125.31
+PED-00215,AC214482613EC,Karla Bravo,Machala,Cuenca,SUC-09,Mismo Dia,9.7,2024-07-11,2024-07-11,Entregado,27.28
+PED-00216,AC104201628EC,Estefania Moreira,Portoviejo,Ibarra,SUC-10,Express,2.4,2025-02-25,2025-02-27,Entregado,9.33
+PED-00217,AC794508426EC,Karla Salazar,Ambato,Quito,SUC-07,Express,30.2,2024-07-20,2024-07-22,Entregado,91.87
+PED-00218,AC181744047EC,Maria Jose Chavez,Portoviejo,Guayaquil,SUC-10,Estandar,5.9,2024-06-09,2024-06-13,En Transito,14.83
+PED-00219,AC446627424EC,Jorge Alvarado,Machala,Loja,SUC-09,Mismo Dia,27.8,2026-04-05,2026-04-05,Pendiente de Retiro,84.34
+PED-00220,AC474621624EC,Karla Vera,Ibarra,Guayaquil,SUC-12,Estandar,8.0,2024-09-30,2024-10-04,En Transito,24.02
+PED-00221,AC158609544EC,Carlos Cedeño,Loja,Santo Domingo,SUC-08,Estandar,2.9,2026-06-30,2026-07-04,Entregado,8.32
+PED-00222,AC426070212EC,Marco Cedeño,Guayaquil,Manta,SUC-04,Estandar,41.9,2026-05-25,2026-05-29,Entregado,75.78
+PED-00223,AC337724643EC,Estefania Alvarado,Portoviejo,Cuenca,SUC-10,Carga Pesada,22.6,2024-03-10,2024-03-16,Entregado,68.01
+PED-00224,AC506958105EC,Luis Ortiz,Cuenca,Loja,SUC-05,Internacional,22.1,2026-03-22,2026-04-01,Pendiente de Retiro,67.49
+PED-00225,AC232380747EC,Daniela Vera,Quito,Ambato,SUC-02,Estandar,16.7,2024-12-09,2024-12-13,En Transito,39.08
+PED-00226,AC466598112EC,Gabriela Zambrano,Manta,Portoviejo,SUC-06,Estandar,9.0,2024-10-17,2024-10-21,Entregado,21.69
+PED-00227,AC270963324EC,Ana Macias,Guayaquil,Cuenca,SUC-04,Estandar,12.5,2026-05-05,2026-05-09,En Bodega,32.21
+PED-00228,AC344032518EC,Melissa Loor,Manta,Guayaquil,SUC-06,Express,17.3,2025-08-17,2025-08-19,Entregado,59.17
+PED-00229,AC364409614EC,Jose Moreira,Santo Domingo,Guayaquil,SUC-11,Internacional,44.9,2025-09-02,2025-09-12,Devuelto,142.75
+PED-00230,AC890207748EC,Marco Salazar,Portoviejo,Machala,SUC-10,Estandar,39.3,2024-05-05,2024-05-09,En Transito,75.77
+PED-00231,AC444711028EC,Marco Macias,Quito,Ibarra,SUC-01,Estandar,1.2,2025-12-28,2026-01-01,Entregado,2.46
+PED-00232,AC194424996EC,Sofia Andrade,Santo Domingo,Quito,SUC-11,Estandar,41.2,2026-04-04,2026-04-08,En Transito,91.29
+PED-00233,AC396912199EC,Monica Rodriguez,Cuenca,Guayaquil,SUC-05,Mismo Dia,18.3,2024-12-30,2024-12-30,Entregado,65.23
+PED-00234,AC366740014EC,Estefania Cedeño,Quito,Loja,SUC-02,Express,30.0,2024-12-25,2024-12-27,Devuelto,60.06
+PED-00235,AC534502949EC,Estefania Mendoza,Manta,Ibarra,SUC-06,Estandar,13.5,2024-10-04,2024-10-08,Devuelto,38.17
+PED-00236,AC706180787EC,Diego Cevallos,Portoviejo,Guayaquil,SUC-10,Estandar,34.2,2024-06-08,2024-06-12,Entregado,63.44
+PED-00237,AC220121770EC,Wilson Zambrano,Portoviejo,Loja,SUC-10,Express,11.8,2025-03-21,2025-03-23,En Transito,35.74
+PED-00238,AC934426872EC,Paula Loor,Quito,Ibarra,SUC-02,Express,2.6,2024-09-07,2024-09-09,En Transito,9.82
+PED-00239,AC474775163EC,Melissa Vera,Ibarra,Quito,SUC-12,Estandar,33.6,2026-02-04,2026-02-08,En Transito,70.87
+PED-00240,AC826480841EC,Melissa Mendoza,Loja,Manta,SUC-08,Express,33.4,2026-04-29,2026-05-01,Pendiente de Retiro,94.39
+PED-00241,AC380458724EC,Estefania Moreira,Ambato,Ibarra,SUC-07,Express,41.8,2024-05-10,2024-05-12,En Transito,91.32
+PED-00242,AC472834321EC,Luis Ortiz,Machala,Guayaquil,SUC-09,Carga Pesada,28.9,2025-07-10,2025-07-16,Entregado,106.01
+PED-00243,AC106313416EC,Andres Macias,Quito,Manta,SUC-02,Express,6.6,2025-12-03,2025-12-05,En Bodega,23.07
+PED-00244,AC688689880EC,Paula Chavez,Guayaquil,Loja,SUC-04,Express,6.4,2025-12-25,2025-12-27,Entregado,21.57
+PED-00245,AC113283590EC,Estefania Andrade,Guayaquil,Cuenca,SUC-04,Express,21.0,2026-02-23,2026-02-25,Entregado,48.87
+PED-00246,AC273215586EC,Ana Chavez,Loja,Guayaquil,SUC-08,Estandar,40.4,2024-11-07,2024-11-11,Entregado,112.4
+PED-00247,AC190164017EC,Monica Suarez,Loja,Machala,SUC-08,Express,13.4,2025-07-24,2025-07-26,Entregado,29.32
+PED-00248,AC485790595EC,Paula Zambrano,Ibarra,Portoviejo,SUC-12,Estandar,29.2,2025-03-20,2025-03-24,En Transito,84.6
+PED-00249,AC902566478EC,Sofia Rodriguez,Santo Domingo,Cuenca,SUC-11,Express,42.1,2025-10-30,2025-11-01,En Transito,119.27
+PED-00250,AC209711807EC,Nicole Cevallos,Quito,Machala,SUC-02,Mismo Dia,13.7,2024-07-09,2024-07-09,Cancelado,43.74
+PED-00251,AC496507110EC,Valentina Moreira,Ibarra,Portoviejo,SUC-12,Estandar,8.7,2026-04-25,2026-04-29,Entregado,18.46
+PED-00252,AC332402751EC,Daniela Mendoza,Guayaquil,Quito,SUC-04,Estandar,25.7,2025-10-05,2025-10-09,Devuelto,82.24
+PED-00253,AC275705048EC,Estefania Macias,Ambato,Machala,SUC-07,Express,44.8,2025-09-09,2025-09-11,En Transito,90.67
+PED-00254,AC103008969EC,Camila Ortiz,Loja,Ibarra,SUC-08,Carga Pesada,4.5,2024-02-10,2024-02-16,Pendiente de Retiro,26.12
+PED-00255,AC167342645EC,Nicole Herrera,Portoviejo,Machala,SUC-10,Estandar,13.1,2025-11-08,2025-11-12,Entregado,36.62
+PED-00256,AC709364763EC,Jorge Ortiz,Quito,Cuenca,SUC-01,Internacional,7.8,2024-10-29,2024-11-08,Entregado,47.82
+PED-00257,AC530964512EC,Marco Rodriguez,Loja,Quito,SUC-08,Express,23.5,2025-03-14,2025-03-16,Retrasado,77.2
+PED-00258,AC421383665EC,Jorge Rodriguez,Quito,Loja,SUC-02,Express,13.7,2025-08-07,2025-08-09,Entregado,36.73
+PED-00259,AC499442561EC,Valentina Alvarado,Machala,Ibarra,SUC-09,Estandar,8.9,2025-11-25,2025-11-29,En Bodega,24.63
+PED-00260,AC688532775EC,Nicole Loor,Manta,Portoviejo,SUC-06,Estandar,20.1,2024-09-24,2024-09-28,Entregado,41.26
+PED-00261,AC343260926EC,Christian Cedeño,Guayaquil,Ambato,SUC-03,Express,8.8,2025-11-17,2025-11-19,Entregado,26.87
+PED-00262,AC640232357EC,Ana Rodriguez,Ibarra,Machala,SUC-12,Internacional,25.7,2026-05-21,2026-05-31,Entregado,73.9
+PED-00263,AC610143884EC,Camila Alvarado,Santo Domingo,Machala,SUC-11,Estandar,37.4,2025-02-05,2025-02-09,En Transito,118.0
+PED-00264,AC328850572EC,Estefania Bravo,Guayaquil,Loja,SUC-04,Mismo Dia,3.1,2024-08-30,2024-08-30,Entregado,14.76
+PED-00265,AC223169967EC,Camila Alvarado,Cuenca,Quito,SUC-05,Express,19.5,2026-06-28,2026-06-30,Entregado,67.09
+PED-00266,AC356946361EC,Gabriela Chavez,Guayaquil,Loja,SUC-04,Express,15.7,2026-02-20,2026-02-22,En Bodega,33.52
+PED-00267,AC451502375EC,Jose Moreira,Machala,Portoviejo,SUC-09,Internacional,32.6,2024-02-14,2024-02-24,Pendiente de Retiro,99.81
+PED-00268,AC949520721EC,Ana Chavez,Quito,Manta,SUC-01,Estandar,9.1,2025-04-02,2025-04-06,Entregado,28.98
+PED-00269,AC997870147EC,Jorge Sanchez,Loja,Quito,SUC-08,Estandar,12.0,2024-06-02,2024-06-06,En Transito,26.47
+PED-00270,AC262063477EC,Maria Jose Herrera,Portoviejo,Cuenca,SUC-10,Express,31.2,2026-04-07,2026-04-09,Entregado,80.56
+PED-00271,AC521513040EC,Cynthia Bravo,Machala,Loja,SUC-09,Internacional,36.1,2024-02-06,2024-02-16,Entregado,121.34
+PED-00272,AC434209630EC,Melissa Loor,Guayaquil,Portoviejo,SUC-03,Estandar,39.3,2025-09-17,2025-09-21,En Transito,90.6
+PED-00273,AC479763495EC,Ana Sanchez,Portoviejo,Santo Domingo,SUC-10,Estandar,8.1,2025-01-04,2025-01-08,En Bodega,18.34
+PED-00274,AC777396367EC,Pedro Mendoza,Quito,Loja,SUC-01,Express,15.4,2024-01-22,2024-01-24,Entregado,51.61
+PED-00275,AC667095131EC,Karla Alvarado,Ibarra,Santo Domingo,SUC-12,Estandar,17.6,2024-03-06,2024-03-10,En Transito,38.14
+PED-00276,AC781421568EC,Cynthia Alvarado,Ibarra,Quito,SUC-12,Internacional,40.7,2024-04-07,2024-04-17,Pendiente de Retiro,142.38
+PED-00277,AC894066551EC,Diego Herrera,Manta,Cuenca,SUC-06,Mismo Dia,11.1,2026-03-26,2026-03-26,Cancelado,39.57
+PED-00278,AC940273131EC,Paula Herrera,Machala,Ibarra,SUC-09,Estandar,39.3,2026-01-02,2026-01-06,Entregado,74.07
+PED-00279,AC534845591EC,Nicole Cedeño,Machala,Manta,SUC-09,Internacional,36.5,2024-12-23,2025-01-02,Entregado,101.19
+PED-00280,AC880239774EC,Diego Salazar,Ambato,Santo Domingo,SUC-07,Mismo Dia,41.9,2025-08-23,2025-08-23,Entregado,102.11
+PED-00281,AC931547359EC,Ana Ortiz,Quito,Manta,SUC-02,Express,4.1,2024-07-02,2024-07-04,Entregado,14.41
+PED-00282,AC772644968EC,Maria Jose Cevallos,Ibarra,Quito,SUC-12,Mismo Dia,14.7,2024-06-28,2024-06-28,Entregado,40.76
+PED-00283,AC311216762EC,Melissa Chavez,Guayaquil,Quito,SUC-03,Estandar,18.3,2024-07-24,2024-07-28,Devuelto,40.18
+PED-00284,AC872035750EC,Karla Herrera,Ibarra,Quito,SUC-12,Carga Pesada,27.2,2024-03-22,2024-03-28,Entregado,95.05
+PED-00285,AC450845282EC,Camila Herrera,Quito,Manta,SUC-01,Estandar,29.1,2024-01-16,2024-01-20,En Transito,89.98
+PED-00286,AC193628188EC,Fernando Mendoza,Santo Domingo,Loja,SUC-11,Estandar,30.7,2024-12-11,2024-12-15,Entregado,92.36
+PED-00287,AC160148391EC,Karla Herrera,Loja,Santo Domingo,SUC-08,Estandar,42.3,2026-06-13,2026-06-17,Entregado,130.94
+PED-00288,AC974044406EC,Sofia Ortiz,Portoviejo,Manta,SUC-10,Estandar,1.3,2024-08-03,2024-08-07,Entregado,3.74
+PED-00289,AC346963938EC,Karla Herrera,Ambato,Manta,SUC-07,Express,26.7,2025-07-22,2025-07-24,Entregado,89.74
+PED-00290,AC700543824EC,Estefania Cedeño,Ibarra,Loja,SUC-12,Mismo Dia,35.0,2024-11-12,2024-11-12,En Transito,98.93
+PED-00291,AC261698150EC,Cynthia Ortiz,Manta,Portoviejo,SUC-06,Express,12.7,2024-09-15,2024-09-17,Entregado,36.32
+PED-00292,AC378220549EC,Christian Cevallos,Ambato,Quito,SUC-07,Internacional,28.3,2024-05-05,2024-05-15,Entregado,95.82
+PED-00293,AC935484171EC,Maria Jose Ortiz,Ibarra,Guayaquil,SUC-12,Internacional,39.3,2026-05-26,2026-06-05,Devuelto,104.66
+PED-00294,AC215753947EC,Fernando Zambrano,Loja,Machala,SUC-08,Estandar,41.1,2026-03-30,2026-04-03,Entregado,86.18
+PED-00295,AC805499836EC,Wilson Sanchez,Quito,Machala,SUC-01,Express,16.1,2024-08-21,2024-08-23,En Transito,43.22
+PED-00296,AC790104338EC,Monica Vargas,Quito,Ambato,SUC-02,Estandar,32.1,2024-09-04,2024-09-08,Entregado,66.91
+PED-00297,AC906959425EC,Monica Salazar,Cuenca,Machala,SUC-05,Estandar,25.8,2024-06-09,2024-06-13,En Transito,80.17
+PED-00298,AC741659615EC,Jorge Bravo,Cuenca,Manta,SUC-05,Estandar,0.7,2026-06-12,2026-06-16,Devuelto,1.42
+PED-00299,AC295740146EC,Monica Cedeño,Guayaquil,Ibarra,SUC-04,Estandar,35.3,2026-05-21,2026-05-25,Devuelto,81.35
+PED-00300,AC261922964EC,Wilson Andrade,Guayaquil,Ambato,SUC-04,Express,36.3,2024-06-04,2024-06-06,Retrasado,70.82
+PED-00301,AC460419667EC,Estefania Sanchez,Quito,Cuenca,SUC-01,Express,18.2,2025-02-28,2025-03-02,Entregado,61.16
+PED-00302,AC562241852EC,Andres Alvarado,Portoviejo,Guayaquil,SUC-10,Estandar,28.4,2024-01-16,2024-01-20,Entregado,71.19
+PED-00303,AC664160839EC,Bryan Rodriguez,Ibarra,Quito,SUC-12,Estandar,40.3,2024-03-07,2024-03-11,Pendiente de Retiro,79.34
+PED-00304,AC479645784EC,Juan Villacis,Quito,Cuenca,SUC-02,Estandar,24.5,2025-10-10,2025-10-14,En Bodega,61.27
+PED-00305,AC116328521EC,Estefania Cevallos,Quito,Loja,SUC-02,Carga Pesada,38.5,2026-06-23,2026-06-29,Entregado,88.2
+PED-00306,AC111371069EC,Jose Salazar,Cuenca,Quito,SUC-05,Carga Pesada,9.2,2024-02-19,2024-02-25,Entregado,38.73
+PED-00307,AC528727012EC,Marco Salazar,Ibarra,Quito,SUC-12,Express,24.7,2025-07-15,2025-07-17,Entregado,63.65
+PED-00308,AC781804511EC,Fernando Rodriguez,Manta,Portoviejo,SUC-06,Estandar,43.8,2025-01-31,2025-02-04,En Bodega,132.9
+PED-00309,AC812349215EC,Andres Loor,Guayaquil,Ibarra,SUC-03,Express,44.5,2025-12-11,2025-12-13,En Transito,108.59
+PED-00310,AC689428692EC,Jorge Cedeño,Quito,Ibarra,SUC-02,Mismo Dia,40.9,2024-02-20,2024-02-20,Entregado,114.6
+PED-00311,AC351722176EC,Christian Sanchez,Loja,Santo Domingo,SUC-08,Estandar,33.7,2026-05-23,2026-05-27,En Transito,76.81
+PED-00312,AC813224975EC,Sofia Moreira,Manta,Quito,SUC-06,Estandar,23.9,2025-09-19,2025-09-23,En Transito,70.66
+PED-00313,AC337537473EC,Bryan Alvarado,Portoviejo,Cuenca,SUC-10,Estandar,37.9,2026-05-28,2026-06-01,En Bodega,95.92
+PED-00314,AC982492307EC,Luis Rodriguez,Quito,Santo Domingo,SUC-02,Estandar,9.6,2024-06-22,2024-06-26,Pendiente de Retiro,20.49
+PED-00315,AC502810910EC,Valentina Salazar,Guayaquil,Quito,SUC-03,Estandar,16.6,2026-06-03,2026-06-07,Pendiente de Retiro,32.74
+PED-00316,AC579105101EC,Daniela Andrade,Manta,Ambato,SUC-06,Express,23.8,2024-11-05,2024-11-07,En Transito,50.77
+PED-00317,AC624819507EC,Valentina Ortiz,Loja,Ibarra,SUC-08,Express,36.0,2026-02-16,2026-02-18,En Transito,70.1
+PED-00318,AC161992120EC,Karla Salazar,Portoviejo,Manta,SUC-10,Express,36.2,2024-09-15,2024-09-17,Entregado,80.34
+PED-00319,AC195385810EC,Melissa Suarez,Cuenca,Portoviejo,SUC-05,Estandar,14.9,2024-09-04,2024-09-08,Entregado,35.96
+PED-00320,AC494250538EC,Ana Sanchez,Guayaquil,Machala,SUC-03,Carga Pesada,13.4,2026-03-10,2026-03-16,Entregado,39.94

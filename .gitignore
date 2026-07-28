@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Base de datos
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Entornos virtuales / Herramientas de dependencias
+.venv/
+poetry.lock
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store

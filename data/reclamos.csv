@@ -1,0 +1,91 @@
+id_reclamo,id_pedido,cliente,fecha_reclamo,tipo_reclamo,descripcion,estado,agente_asignado,fecha_resolucion
+REC-0001,PED-00152,Luis Mendoza,2025-08-22,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00152.,En Proceso,Katherine Salinas,
+REC-0002,PED-00209,Maria Jose Zambrano,2024-08-07,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00209.,Rechazado,Priscila Ganchozo,
+REC-0003,PED-00221,Carlos Cedeño,2026-07-18,Contenido faltante,Reclamo relacionado a: contenido faltante en el pedido PED-00221.,Resuelto,Maria Fernanda Ochoa,2026-07-22
+REC-0004,PED-00312,Sofia Moreira,2025-09-26,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00312.,Pendiente de Documentacion,Fabian Landeta,
+REC-0005,PED-00132,Gabriela Ortiz,2025-05-27,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00132.,Resuelto,Ivan Merino,2025-06-10
+REC-0006,PED-00181,Priscila Cevallos,2024-08-18,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00181.,Pendiente de Documentacion,Maria Fernanda Ochoa,
+REC-0007,PED-00123,Nicole Vargas,2024-11-27,Paquete perdido,Reclamo relacionado a: paquete perdido en el pedido PED-00123.,En Proceso,Priscila Ganchozo,
+REC-0008,PED-00198,Wilson Vargas,2024-05-25,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00198.,Resuelto,Fabian Landeta,2024-05-30
+REC-0009,PED-00297,Monica Salazar,2024-06-19,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00297.,Escalado,Fabian Landeta,
+REC-0010,PED-00067,Wilson Alvarado,2024-09-21,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00067.,Resuelto,Maria Fernanda Ochoa,2024-09-26
+REC-0011,PED-00099,Maria Jose Sanchez,2026-01-17,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00099.,Rechazado,Luis Rugel,
+REC-0012,PED-00298,Jorge Bravo,2026-06-14,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00298.,Rechazado,Luis Rugel,
+REC-0013,PED-00191,Cynthia Sanchez,2025-03-02,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00191.,Resuelto,Andrea Pico,2025-03-15
+REC-0014,PED-00033,Jorge Cedeño,2024-02-11,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00033.,En Proceso,Katherine Salinas,
+REC-0015,PED-00105,Maria Jose Zambrano,2024-06-21,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00105.,Resuelto,Byron Chuquimarca,2024-07-04
+REC-0016,PED-00169,Melissa Sanchez,2025-11-04,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00169.,Resuelto,Luis Rugel,2025-11-09
+REC-0017,PED-00037,Fernando Sanchez,2026-03-16,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00037.,Resuelto,Katherine Salinas,2026-03-31
+REC-0018,PED-00041,Luis Herrera,2024-06-06,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00041.,Resuelto,Andrea Pico,2024-06-08
+REC-0019,PED-00229,Jose Moreira,2025-09-04,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00229.,Rechazado,Katherine Salinas,
+REC-0020,PED-00195,Nicole Mendoza,2025-10-18,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00195.,Escalado,Andrea Pico,
+REC-0021,PED-00202,Christian Vera,2024-11-08,Contenido faltante,Reclamo relacionado a: contenido faltante en el pedido PED-00202.,Resuelto,Byron Chuquimarca,2024-11-23
+REC-0022,PED-00270,Maria Jose Herrera,2026-04-12,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00270.,Resuelto,Ivan Merino,2026-04-14
+REC-0023,PED-00213,Jose Vera,2026-04-28,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00213.,En Proceso,Byron Chuquimarca,
+REC-0024,PED-00255,Nicole Herrera,2025-11-26,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00255.,Resuelto,Andrea Pico,2025-11-30
+REC-0025,PED-00014,Juan Cevallos,2024-05-26,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00014.,En Proceso,Luis Rugel,
+REC-0026,PED-00056,Gabriela Vera,2025-03-31,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00056.,Resuelto,Luis Rugel,2025-04-05
+REC-0027,PED-00289,Karla Herrera,2025-08-01,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00289.,Resuelto,Fabian Landeta,2025-08-15
+REC-0028,PED-00237,Wilson Zambrano,2025-03-24,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00237.,Resuelto,Katherine Salinas,2025-04-08
+REC-0029,PED-00293,Maria Jose Ortiz,2026-06-15,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00293.,Resuelto,Katherine Salinas,2026-06-24
+REC-0030,PED-00224,Luis Ortiz,2026-03-30,Contenido faltante,Reclamo relacionado a: contenido faltante en el pedido PED-00224.,Resuelto,Luis Rugel,2026-04-10
+REC-0031,PED-00309,Andres Loor,2025-12-12,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00309.,Resuelto,Katherine Salinas,2025-12-16
+REC-0032,PED-00243,Andres Macias,2025-12-05,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00243.,Resuelto,Fabian Landeta,2025-12-14
+REC-0033,PED-00091,Melissa Salazar,2026-02-08,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00091.,Escalado,Andrea Pico,
+REC-0034,PED-00034,Monica Herrera,2024-05-07,Contenido faltante,Reclamo relacionado a: contenido faltante en el pedido PED-00034.,Rechazado,Fabian Landeta,
+REC-0035,PED-00226,Gabriela Zambrano,2024-10-21,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00226.,Escalado,Priscila Ganchozo,
+REC-0036,PED-00204,Priscila Villacis,2024-08-10,Paquete perdido,Reclamo relacionado a: paquete perdido en el pedido PED-00204.,Resuelto,Luis Rugel,2024-08-20
+REC-0037,PED-00252,Daniela Mendoza,2025-10-19,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00252.,Resuelto,Ivan Merino,2025-11-03
+REC-0038,PED-00070,Ana Bravo,2024-03-20,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00070.,Escalado,Andrea Pico,
+REC-0039,PED-00263,Camila Alvarado,2025-02-17,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00263.,En Proceso,Luis Rugel,
+REC-0040,PED-00005,Bryan Villacis,2024-10-21,Paquete perdido,Reclamo relacionado a: paquete perdido en el pedido PED-00005.,Rechazado,Fabian Landeta,
+REC-0041,PED-00119,Camila Sanchez,2024-04-24,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00119.,Resuelto,Byron Chuquimarca,2024-04-27
+REC-0042,PED-00103,Christian Suarez,2025-12-14,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00103.,Resuelto,Luis Rugel,2025-12-24
+REC-0043,PED-00206,Pedro Bravo,2025-03-14,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00206.,Resuelto,Maria Fernanda Ochoa,2025-03-25
+REC-0044,PED-00021,Cynthia Loor,2025-02-11,Contenido faltante,Reclamo relacionado a: contenido faltante en el pedido PED-00021.,Resuelto,Katherine Salinas,2025-02-16
+REC-0045,PED-00151,Maria Jose Chavez,2024-06-17,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00151.,Pendiente de Documentacion,Byron Chuquimarca,
+REC-0046,PED-00170,Jose Mendoza,2024-09-02,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00170.,Rechazado,Maria Fernanda Ochoa,
+REC-0047,PED-00199,Karla Macias,2024-10-25,Paquete perdido,Reclamo relacionado a: paquete perdido en el pedido PED-00199.,Resuelto,Byron Chuquimarca,2024-11-08
+REC-0048,PED-00236,Diego Cevallos,2024-06-16,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00236.,Escalado,Andrea Pico,
+REC-0049,PED-00061,Bryan Cedeño,2024-03-16,Paquete perdido,Reclamo relacionado a: paquete perdido en el pedido PED-00061.,Resuelto,Luis Rugel,2024-03-27
+REC-0050,PED-00047,Cynthia Salazar,2025-11-01,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00047.,Resuelto,Byron Chuquimarca,2025-11-12
+REC-0051,PED-00114,Kevin Zambrano,2025-02-16,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00114.,En Proceso,Maria Fernanda Ochoa,
+REC-0052,PED-00040,Melissa Suarez,2024-06-28,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00040.,En Proceso,Luis Rugel,
+REC-0053,PED-00008,Priscila Macias,2026-06-27,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00008.,En Proceso,Andrea Pico,
+REC-0054,PED-00053,Wilson Mendoza,2024-07-20,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00053.,Resuelto,Fabian Landeta,2024-08-03
+REC-0055,PED-00317,Valentina Ortiz,2026-03-07,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00317.,Resuelto,Priscila Ganchozo,2026-03-15
+REC-0056,PED-00046,Estefania Cedeño,2025-12-01,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00046.,Escalado,Andrea Pico,
+REC-0057,PED-00111,Carlos Zambrano,2024-08-11,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00111.,Resuelto,Andrea Pico,2024-08-18
+REC-0058,PED-00233,Monica Rodriguez,2025-01-06,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00233.,Pendiente de Documentacion,Ivan Merino,
+REC-0059,PED-00029,Estefania Loor,2025-05-15,Paquete perdido,Reclamo relacionado a: paquete perdido en el pedido PED-00029.,Escalado,Fabian Landeta,
+REC-0060,PED-00279,Nicole Cedeño,2024-12-25,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00279.,En Proceso,Ivan Merino,
+REC-0061,PED-00172,Gabriela Sanchez,2025-11-02,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00172.,Resuelto,Maria Fernanda Ochoa,2025-11-14
+REC-0062,PED-00248,Paula Zambrano,2025-04-01,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00248.,Resuelto,Ivan Merino,2025-04-14
+REC-0063,PED-00262,Ana Rodriguez,2026-06-09,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00262.,Rechazado,Fabian Landeta,
+REC-0064,PED-00214,Melissa Vargas,2025-12-23,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00214.,Resuelto,Katherine Salinas,2026-01-05
+REC-0065,PED-00072,Fernando Suarez,2025-09-29,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00072.,Rechazado,Andrea Pico,
+REC-0066,PED-00306,Jose Salazar,2024-03-04,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00306.,Rechazado,Katherine Salinas,
+REC-0067,PED-00210,Melissa Villacis,2024-12-04,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00210.,Resuelto,Katherine Salinas,2024-12-18
+REC-0068,PED-00013,Juan Cedeño,2026-06-03,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00013.,Resuelto,Byron Chuquimarca,2026-06-12
+REC-0069,PED-00291,Cynthia Ortiz,2024-10-01,Paquete perdido,Reclamo relacionado a: paquete perdido en el pedido PED-00291.,Resuelto,Priscila Ganchozo,2024-10-15
+REC-0070,PED-00161,Andres Andrade,2026-03-28,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00161.,Resuelto,Byron Chuquimarca,2026-03-31
+REC-0071,PED-00038,Marco Andrade,2025-04-17,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00038.,Escalado,Maria Fernanda Ochoa,
+REC-0072,PED-00083,Kevin Ortiz,2025-02-23,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00083.,En Proceso,Luis Rugel,
+REC-0073,PED-00086,Andres Vera,2024-07-04,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00086.,Resuelto,Fabian Landeta,2024-07-10
+REC-0074,PED-00049,Bryan Villacis,2024-11-24,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00049.,En Proceso,Luis Rugel,
+REC-0075,PED-00133,Wilson Andrade,2024-04-09,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00133.,Rechazado,Maria Fernanda Ochoa,
+REC-0076,PED-00002,Monica Rodriguez,2025-04-05,Cobro duplicado,Reclamo relacionado a: cobro duplicado en el pedido PED-00002.,Resuelto,Andrea Pico,2025-04-11
+REC-0077,PED-00048,Fernando Bravo,2025-09-03,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00048.,En Proceso,Byron Chuquimarca,
+REC-0078,PED-00138,Valentina Suarez,2025-07-28,Entrega a destinatario incorrecto,Reclamo relacionado a: entrega a destinatario incorrecto en el pedido PED-00138.,En Proceso,Maria Fernanda Ochoa,
+REC-0079,PED-00071,Camila Salazar,2024-02-21,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00071.,Resuelto,Andrea Pico,2024-02-28
+REC-0080,PED-00134,Karla Zambrano,2024-06-04,Retraso en la entrega,Reclamo relacionado a: retraso en la entrega en el pedido PED-00134.,Resuelto,Priscila Ganchozo,2024-06-19
+REC-0081,PED-00068,Cynthia Cedeño,2025-07-02,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00068.,Resuelto,Byron Chuquimarca,2025-07-12
+REC-0082,PED-00023,Cynthia Rodriguez,2025-05-27,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00023.,En Proceso,Maria Fernanda Ochoa,
+REC-0083,PED-00081,Cynthia Vargas,2025-07-23,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00081.,Pendiente de Documentacion,Fabian Landeta,
+REC-0084,PED-00310,Jorge Cedeño,2024-03-10,Contenido faltante,Reclamo relacionado a: contenido faltante en el pedido PED-00310.,Escalado,Luis Rugel,
+REC-0085,PED-00066,Gabriela Alvarado,2024-05-22,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00066.,Resuelto,Katherine Salinas,2024-06-05
+REC-0086,PED-00275,Karla Alvarado,2024-03-20,Paquete danado,Reclamo relacionado a: paquete danado en el pedido PED-00275.,En Proceso,Ivan Merino,
+REC-0087,PED-00220,Karla Vera,2024-10-15,Contenido faltante,Reclamo relacionado a: contenido faltante en el pedido PED-00220.,Pendiente de Documentacion,Ivan Merino,
+REC-0088,PED-00077,Juan Sanchez,2024-06-24,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00077.,Pendiente de Documentacion,Maria Fernanda Ochoa,
+REC-0089,PED-00143,Daniela Herrera,2024-11-08,Siniestro por accidente,Reclamo relacionado a: siniestro por accidente en el pedido PED-00143.,Resuelto,Maria Fernanda Ochoa,2024-11-10
+REC-0090,PED-00102,Paula Loor,2024-07-30,Atencion deficiente en sucursal,Reclamo relacionado a: atencion deficiente en sucursal en el pedido PED-00102.,Resuelto,Andrea Pico,2024-08-13

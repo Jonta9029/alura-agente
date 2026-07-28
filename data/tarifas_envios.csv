@@ -1,0 +1,13 @@
+id_tarifa,tipo_envio,rango_peso_kg,rango_volumen_m3,costo_base_usd,costo_adicional_kg_usd,costo_adicional_km_usd,descripcion
+TAR-01,Estandar,0-5,0-0.05,4.50,0.50,0.01,"Tarifa estandar para paquetes pequenos de hasta 5 kg. Recargo de USD 0.50 por kg adicional y USD 0.01 por km de distancia."
+TAR-02,Estandar,5.1-15,0.06-0.2,8.00,0.60,0.012,"Tarifa estandar para paquetes medianos de hasta 15 kg. Recargo de USD 0.60 por kg adicional y USD 0.012 por km de distancia."
+TAR-03,Estandar,15.1-30,0.21-0.5,15.00,0.75,0.015,"Tarifa estandar para paquetes grandes de hasta 30 kg. Recargo de USD 0.75 por kg adicional y USD 0.015 por km de distancia."
+TAR-04,Express,0-5,0-0.05,9.00,1.00,0.02,"Tarifa express prioritaria para paquetes de hasta 5 kg. Recargo de USD 1.00 por kg adicional y USD 0.02 por km de distancia."
+TAR-05,Express,5.1-15,0.06-0.2,16.00,1.20,0.025,"Tarifa express prioritaria para paquetes de hasta 15 kg. Recargo de USD 1.20 por kg adicional y USD 0.025 por km de distancia."
+TAR-06,Express,15.1-25,0.21-0.4,28.00,1.50,0.03,"Tarifa express prioritaria para paquetes de hasta 25 kg. Recargo de USD 1.50 por kg adicional y USD 0.03 por km de distancia."
+TAR-07,Mismo Dia,0-5,0-0.05,13.00,1.50,0.035,"Servicio mismo dia para entregas locales de hasta 5 kg. Recargo de USD 1.50 por kg adicional."
+TAR-08,Mismo Dia,5.1-15,0.06-0.15,22.00,2.00,0.04,"Servicio mismo dia local para paquetes de hasta 15 kg. Recargo de USD 2.00 por kg adicional."
+TAR-09,Internacional,0-5,0-0.05,28.00,3.50,0.10,"Tarifa internacional base para documentos y paquetes pequenos. Requiere documentacion aduanera."
+TAR-10,Internacional,5.1-20,0.06-0.2,55.00,5.00,0.15,"Tarifa internacional para paquetes medianos. Requiere declaracion jurada de contenido."
+TAR-11,Carga Pesada,30.1-100,0.51-1.5,45.00,0.40,0.008,"Servicio carga pesada para bultos de hasta 100 kg. Recargo de USD 0.40 por kg y USD 0.008 por km."
+TAR-12,Carga Pesada,100.1-500,1.51-5.0,120.00,0.30,0.006,"Servicio carga pesada para pallets y volumenes industriales. Recargo de USD 0.30 por kg y USD 0.006 por km."
