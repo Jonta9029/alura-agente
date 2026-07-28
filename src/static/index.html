@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andes Cargo | Agente Inteligente 🤖📦</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-glass: rgba(17, 24, 39, 0.7);
+            --border-glass: rgba(255, 255, 255, 0.08);
+            
+            --color-primary: #4f46e5;
+            --color-primary-hover: #4338ca;
+            --color-secondary: #06b6d4;
+            --color-accent: #f43f5e;
+            
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --text-light: #ffffff;
+            
+            --glow-indigo: 0 0 20px rgba(79, 70, 229, 0.45);
+            --glow-cyan: 0 0 20px rgba(6, 182, 212, 0.45);
+            --shadow-premium: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            height: 100vh;
+            display: flex;
+            overflow: hidden;
+            background-image: 
+                radial-gradient(at 10% 20%, rgba(79, 70, 229, 0.15) 0px, transparent 50%),
+                radial-gradient(at 90% 10%, rgba(6, 182, 212, 0.15) 0px, transparent 50%),
+                radial-gradient(at 50% 80%, rgba(244, 63, 94, 0.08) 0px, transparent 50%);
+            background-size: cover;
+        }
+
+        /* Layout */
+        .app-container {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 320px;
+            background: var(--bg-glass);
+            backdrop-filter: blur(16px);
+            border-right: 1px solid var(--border-glass);
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            z-index: 10;
+            transition: transform 0.3s ease;
+        }
+
+        .brand-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 32px;
+        }
+
+        .brand-logo {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            box-shadow: var(--glow-indigo);
+            animation: pulse-logo 3s infinite alternate;
+        }
+
+        @keyframes pulse-logo {
+            0% { box-shadow: 0 0 15px rgba(79, 70, 229, 0.4); }
+            100% { box-shadow: 0 0 25px rgba(6, 182, 212, 0.6); }
+        }
+
+        .brand-name {
+            font-size: 1.35rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #ffffff, #9ca3af);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 0.5px;
+        }
+
+        .section-title {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+            font-weight: 600;
+        }
+
+        /* Interactive Menu */
+        .menu-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: auto;
+        }
+
+        .menu-item {
+            padding: 12px 16px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .menu-item i {
+            font-size: 1.1rem;
+            width: 20px;
+            text-align: center;
+            color: var(--color-secondary);
+            transition: transform 0.2s ease;
+        }
+
+        .menu-item:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.1);
+            color: var(--text-light);
+            transform: translateX(4px);
+        }
+
+        .menu-item:hover i {
+            transform: scale(1.15);
+        }
+
+        /* Health Widget */
+        .system-status {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-glass);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .status-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #10b981;
+            display: inline-block;
+            box-shadow: 0 0 8px #10b981;
+        }
+
+        .status-dot.unhealthy {
+            background: #ef4444;
+            box-shadow: 0 0 8px #ef4444;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 0.75rem;
+        }
+
+        .status-cell {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 6px 10px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid rgba(255, 255, 255, 0.02);
+        }
+
+        .status-cell span {
+            color: var(--text-muted);
+        }
+
+        .status-val {
+            font-weight: 600;
+            color: #10b981;
+        }
+
+        .status-val.error {
+            color: #ef4444;
+        }
+
+        /* Reset Button */
+        .btn-reset {
+            margin-top: 16px;
+            width: 100%;
+            padding: 12px;
+            background: rgba(244, 63, 94, 0.1);
+            border: 1px solid rgba(244, 63, 94, 0.2);
+            color: var(--color-accent);
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .btn-reset:hover {
+            background: rgba(244, 63, 94, 0.2);
+            border-color: rgba(244, 63, 94, 0.4);
+            transform: translateY(-2px);
+        }
+
+        /* Main Chat Area */
+        .chat-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            position: relative;
+            background: rgba(10, 15, 30, 0.35);
+        }
+
+        /* Header */
+        .chat-header {
+            height: 80px;
+            border-bottom: 1px solid var(--border-glass);
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(17, 24, 39, 0.4);
+            backdrop-filter: blur(8px);
+            z-index: 5;
+        }
+
+        .agent-info {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .agent-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+        }
+
+        .agent-avatar::after {
+            content: '';
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            width: 10px;
+            height: 10px;
+            background: #10b981;
+            border-radius: 50%;
+            border: 2px solid var(--bg-primary);
+        }
+
+        .agent-details h2 {
+            font-size: 1.05rem;
+            font-weight: 600;
+        }
+
+        .agent-details p {
+            font-size: 0.78rem;
+            color: #10b981;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        .header-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-glass);
+            color: var(--text-main);
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .header-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.2);
+            color: var(--text-light);
+        }
+
+        /* Message Display */
+        .messages-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            scroll-behavior: smooth;
+        }
+
+        .messages-container::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .messages-container::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .messages-container::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+
+        .messages-container::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Message Bubbles */
+        .message-row {
+            display: flex;
+            width: 100%;
+            animation: message-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        @keyframes message-in {
+            from {
+                opacity: 0;
+                transform: translateY(12px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message-row.user {
+            justify-content: flex-end;
+        }
+
+        .message-row.agent {
+            justify-content: flex-start;
+        }
+
+        .message-bubble {
+            max-width: 70%;
+            padding: 16px 20px;
+            border-radius: 18px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            position: relative;
+            box-shadow: var(--shadow-premium);
+        }
+
+        .message-row.user .message-bubble {
+            background: linear-gradient(135deg, var(--color-primary), #3b82f6);
+            color: var(--text-light);
+            border-bottom-right-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .message-row.agent .message-bubble {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid var(--border-glass);
+            color: var(--text-main);
+            border-bottom-left-radius: 4px;
+            backdrop-filter: blur(12px);
+        }
+
+        .message-bubble p {
+            margin-bottom: 8px;
+        }
+
+        .message-bubble p:last-child {
+            margin-bottom: 0;
+        }
+
+        .message-bubble ul, .message-bubble ol {
+            margin-left: 20px;
+            margin-bottom: 8px;
+        }
+
+        .message-bubble li {
+            margin-bottom: 4px;
+        }
+
+        .message-meta {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            justify-content: flex-end;
+        }
+
+        .message-row.agent .message-meta {
+            justify-content: flex-start;
+        }
+
+        /* Table custom styling in messages */
+        .message-bubble table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 0.85rem;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .message-bubble th {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 8px 12px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-light);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .message-bubble td {
+            padding: 8px 12px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            color: var(--text-main);
+        }
+
+        .message-bubble tr:last-child td {
+            border-bottom: none;
+        }
+
+        .message-bubble tr:nth-child(even) {
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        /* Typing indicator */
+        .typing-indicator {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 12px;
+        }
+
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--text-muted);
+            border-radius: 50%;
+            animation: typing-bounce 1.4s infinite ease-in-out both;
+        }
+
+        .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes typing-bounce {
+            0%, 80%, 100% { transform: scale(0); }
+            40% { transform: scale(1); }
+        }
+
+        /* Suggestion Chips */
+        .suggestions-panel {
+            padding: 0 32px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .suggestion-chip {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-glass);
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .suggestion-chip:hover {
+            background: rgba(79, 70, 229, 0.15);
+            border-color: rgba(79, 70, 229, 0.4);
+            color: var(--text-light);
+            transform: translateY(-1px);
+        }
+
+        /* Input Controls */
+        .chat-input-container {
+            padding: 0 32px 32px 32px;
+            background: transparent;
+            position: relative;
+        }
+
+        .input-wrapper {
+            background: rgba(17, 24, 39, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid var(--border-glass);
+            border-radius: 16px;
+            padding: 6px 10px 6px 18px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: var(--shadow-premium);
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .input-wrapper:focus-within {
+            border-color: rgba(79, 70, 229, 0.5);
+            box-shadow: 0 0 25px rgba(79, 70, 229, 0.2);
+        }
+
+        .chat-input {
+            flex: 1;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--text-light);
+            font-size: 0.95rem;
+            padding: 10px 0;
+            resize: none;
+            height: 44px;
+            max-height: 120px;
+            overflow-y: auto;
+        }
+
+        .chat-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .btn-send {
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+            border: none;
+            color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+        }
+
+        .btn-send:hover {
+            transform: scale(1.05) translateY(-1px);
+            box-shadow: 0 6px 16px rgba(79, 70, 229, 0.4);
+        }
+
+        .btn-send:active {
+            transform: scale(0.95);
+        }
+
+        /* Mobile layout toggle button */
+        .mobile-menu-btn {
+            display: none;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 900px) {
+            .sidebar {
+                position: absolute;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                transform: translateX(-100%);
+            }
+            .sidebar.active {
+                transform: translateX(0);
+            }
+            .mobile-menu-btn {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="brand-container">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-cube"></i>
+                </div>
+                <div class="brand-name">Andes Cargo</div>
+            </div>
+
+            <h3 class="section-title">Servicios / Acciones</h3>
+            <ul class="menu-list">
+                <li class="menu-item" onclick="selectMenuOption('1')">
+                    <i class="fa-solid fa-calculator"></i>
+                    <span>1. Cotizar Envío</span>
+                </li>
+                <li class="menu-item" onclick="selectMenuOption('2')">
+                    <i class="fa-solid fa-magnifying-glass-location"></i>
+                    <span>2. Rastrear Paquete</span>
+                </li>
+                <li class="menu-item" onclick="selectMenuOption('3')">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <span>3. Estado de Reclamo</span>
+                </li>
+                <li class="menu-item" onclick="selectMenuOption('4')">
+                    <i class="fa-solid fa-building-user"></i>
+                    <span>4. Ubicar Sucursal</span>
+                </li>
+                <li class="menu-item" onclick="selectMenuOption('5')">
+                    <i class="fa-solid fa-users"></i>
+                    <span>5. Consultar Personal</span>
+                </li>
+            </ul>
+
+            <!-- Health Status -->
+            <div class="system-status">
+                <div class="status-header">
+                    <span>Estado del Servidor</span>
+                    <span id="health-dot" class="status-dot"></span>
+                </div>
+                <div class="status-grid">
+                    <div class="status-cell">
+                        <span>DB SQLite</span>
+                        <span id="db-health" class="status-val">OK</span>
+                    </div>
+                    <div class="status-cell">
+                        <span>Gemini IA</span>
+                        <span id="ai-health" class="status-val">OK</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clear/Reset Button -->
+            <button class="btn-reset" onclick="clearChatHistory()">
+                <i class="fa-solid fa-rotate-left"></i>
+                Reiniciar Conversación
+            </button>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <main class="chat-area">
+            
+            <!-- Chat Header -->
+            <header class="chat-header">
+                <div class="agent-info">
+                    <button class="header-btn mobile-menu-btn" onclick="toggleSidebar()">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="agent-avatar">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div class="agent-details">
+                        <h2>Alura Agente Corporativo</h2>
+                        <p id="agent-status-text"><span class="status-dot"></span> En línea (Gemini Flash)</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="header-btn" onclick="clearChatHistory()" title="Limpiar chat">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </button>
+                    <button class="header-btn" onclick="window.open('/docs', '_blank')" title="Documentación API Swagger">
+                        <i class="fa-solid fa-book"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Messages Window -->
+            <div class="messages-container" id="messages-container">
+                <!-- Initial welcoming message will be appended here -->
+            </div>
+
+            <!-- Suggestions chips -->
+            <div class="suggestions-panel" id="suggestions-panel">
+                <div class="suggestion-chip" onclick="askQuestion('¿Cuál es la tarifa de envío express para un paquete de 3kg?')">
+                    <i class="fa-solid fa-comments"></i> ¿Tarifas para 3kg express?
+                </div>
+                <div class="suggestion-chip" onclick="askQuestion('¿Quién es el gerente de la sucursal Alborada?')">
+                    <i class="fa-solid fa-comments"></i> Gerente de Alborada
+                </div>
+                <div class="suggestion-chip" onclick="askQuestion('¿Cuál es el estado del reclamo 15?')">
+                    <i class="fa-solid fa-comments"></i> Ver reclamo 15
+                </div>
+                <div class="suggestion-chip" onclick="askQuestion('Rastrear pedido 105')">
+                    <i class="fa-solid fa-comments"></i> Rastrear pedido 105
+                </div>
+            </div>
+
+            <!-- Input area -->
+            <div class="chat-input-container">
+                <div class="input-wrapper">
+                    <textarea class="chat-input" id="chat-input" placeholder="Escribe tu mensaje o pregunta aquí..." rows="1" onkeydown="handleEnter(event)"></textarea>
+                    <button class="btn-send" onclick="sendMessage()" id="btn-send">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+        const chatInput = document.getElementById('chat-input');
+        const messagesContainer = document.getElementById('messages-container');
+        const sidebar = document.getElementById('sidebar');
+        const btnSend = document.getElementById('btn-send');
+
+        // Initial welcome message
+        document.addEventListener('DOMContentLoaded', () => {
+            appendAgentMessage("¡Hola! Qué alegría saludarte. 😊 Soy el Alura Agente, tu asistente virtual de **Andes Cargo**. ¿Con quién tengo el gusto de hablar hoy para poder darte una atención personalizada?");
+            checkSystemHealth();
+            // Poll health check every 15 seconds
+            setInterval(checkSystemHealth, 15000);
+        });
+
+        // Toggle Sidebar on mobile
+        function toggleSidebar() {
+            sidebar.classList.toggle('active');
+        }
+
+        // Handle text area height adjustment and Enter key
+        chatInput.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight - 4) + 'px';
+        });
+
+        function handleEnter(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        }
+
+        // Append User Message
+        function appendUserMessage(text) {
+            const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const html = `
+                <div class="message-row user">
+                    <div class="message-bubble">
+                        <p>${escapeHTML(text)}</p>
+                        <div class="message-meta">
+                            <span>${time}</span>
+                            <i class="fa-solid fa-check-double"></i>
+                        </div>
+                    </div>
+                </div>
+            `;
+            messagesContainer.insertAdjacentHTML('beforeend', html);
+            scrollToBottom();
+        }
+
+        // Format markdown-like text to nice HTML
+        function formatMarkdown(text) {
+            // Escape HTML first to prevent raw HTML injection
+            let escaped = escapeHTML(text);
+            
+            // Format bold text (**text**)
+            escaped = escaped.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            
+            // Format lists (bullets starting with * or - or digit followed by dot)
+            // Note: Very basic parser.
+            escaped = escaped.replace(/\n\s*[\*\-]\s+(.*?)(?=\n|$)/g, '<li>$1</li>');
+            escaped = escaped.replace(/(<li>.*?<\/li>)+/gs, '<ul>$&</ul>');
+            
+            // Convert simple linebreaks to paragraph/linebreaks
+            escaped = escaped.replace(/\n/g, '<br>');
+
+            // Convert ASCII/Markdown tables if they exist
+            if (escaped.includes('|')) {
+                escaped = parseTable(escaped);
+            }
+            
+            return escaped;
+        }
+
+        // Simple helper to parse ASCII markdown tables
+        function parseTable(text) {
+            const lines = text.split('<br>');
+            let insideTable = false;
+            let tableHTML = '<table>';
+            let formattedText = '';
+            
+            for (let line of lines) {
+                if (line.trim().startsWith('|') && line.trim().endsWith('|')) {
+                    const cells = line.split('|').map(c => c.trim()).filter((c, i, arr) => i > 0 && i < arr.length - 1);
+                    if (!insideTable) {
+                        insideTable = true;
+                        tableHTML += '<thead><tr>';
+                        cells.forEach(c => tableHTML += `<th>${c}</th>`);
+                        tableHTML += '</tr></thead><tbody>';
+                    } else if (line.includes('---') || line.includes(':::')) {
+                        // Table separator, skip
+                        continue;
+                    } else {
+                        tableHTML += '<tr>';
+                        cells.forEach(c => tableHTML += `<td>${c}</td>`);
+                        tableHTML += '</tr>';
+                    }
+                } else {
+                    if (insideTable) {
+                        insideTable = false;
+                        tableHTML += '</tbody></table>';
+                        formattedText += tableHTML;
+                        tableHTML = '<table>';
+                    }
+                    formattedText += line + '<br>';
+                }
+            }
+            
+            if (insideTable) {
+                tableHTML += '</tbody></table>';
+                formattedText += tableHTML;
+            }
+            
+            return formattedText;
+        }
+
+        function escapeHTML(str) {
+            return str
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        // Append Agent Message
+        function appendAgentMessage(text, latency = null) {
+            const time = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            const formattedText = formatMarkdown(text);
+            const latencyText = latency ? `<span style="margin-left: 10px; font-style: italic;">(${latency}s latencia)</span>` : '';
+            const html = `
+                <div class="message-row agent">
+                    <div class="message-bubble">
+                        <div>${formattedText}</div>
+                        <div class="message-meta">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>Andes Cargo ${latencyText} • ${time}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            messagesContainer.insertAdjacentHTML('beforeend', html);
+            scrollToBottom();
+        }
+
+        // Append typing indicator
+        function showTypingIndicator() {
+            const html = `
+                <div class="message-row agent" id="typing-indicator-row">
+                    <div class="message-bubble">
+                        <div class="typing-indicator">
+                            <span class="typing-dot"></span>
+                            <span class="typing-dot"></span>
+                            <span class="typing-dot"></span>
+                        </div>
+                    </div>
+                </div>
+            `;
+            messagesContainer.insertAdjacentHTML('beforeend', html);
+            scrollToBottom();
+        }
+
+        function removeTypingIndicator() {
+            const indicator = document.getElementById('typing-indicator-row');
+            if (indicator) {
+                indicator.remove();
+            }
+        }
+
+        function scrollToBottom() {
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Select Menu Option
+        function selectMenuOption(num) {
+            chatInput.value = num;
+            sendMessage();
+            if (sidebar.classList.contains('active')) {
+                sidebar.classList.remove('active');
+            }
+        }
+
+        // Ask suggestion chip question
+        function askQuestion(question) {
+            chatInput.value = question;
+            sendMessage();
+        }
+
+        // Clear Chat History
+        async function clearChatHistory() {
+            try {
+                const response = await fetch('/api/clear', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+                
+                if (response.ok) {
+                    messagesContainer.innerHTML = '';
+                    appendAgentMessage("¡Historial de conversación reiniciado con éxito! 😊 ¿En qué te puedo ayudar hoy? Indícame tu nombre para empezar.");
+                } else {
+                    console.error("Fallo al reiniciar chat");
+                }
+            } catch (err) {
+                console.error("Error al reiniciar chat:", err);
+            }
+        }
+
+        // Check System Health
+        async function checkSystemHealth() {
+            const dbVal = document.getElementById('db-health');
+            const aiVal = document.getElementById('ai-health');
+            const healthDot = document.getElementById('health-dot');
+
+            try {
+                const response = await fetch('/api/health');
+                const data = await response.json();
+                
+                if (response.ok && data.status === 'healthy') {
+                    dbVal.textContent = 'OK';
+                    dbVal.className = 'status-val';
+                    aiVal.textContent = 'OK';
+                    aiVal.className = 'status-val';
+                    healthDot.className = 'status-dot';
+                } else {
+                    throw new Error("unhealthy");
+                }
+            } catch (err) {
+                dbVal.textContent = 'ERR';
+                dbVal.className = 'status-val error';
+                aiVal.textContent = 'ERR';
+                aiVal.className = 'status-val error';
+                healthDot.className = 'status-dot unhealthy';
+            }
+        }
+
+        // Send Message
+        async function sendMessage() {
+            const query = chatInput.value.trim();
+            if (!query) return;
+
+            // Clear input
+            chatInput.value = '';
+            chatInput.style.height = 'auto';
+
+            appendUserMessage(query);
+            showTypingIndicator();
+
+            try {
+                const response = await fetch('/api/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ query: query })
+                });
+
+                removeTypingIndicator();
+
+                if (response.ok) {
+                    const data = await response.json();
+                    appendAgentMessage(data.answer, data.latency_seconds);
+                } else {
+                    const errData = await response.json();
+                    appendAgentMessage("¡Lo siento! Hubo un problema al procesar tu solicitud: " + (errData.detail || "Error interno del servidor."));
+                }
+            } catch (err) {
+                removeTypingIndicator();
+                appendAgentMessage("¡Oops! No me pude conectar con el servidor. Por favor verifica que el backend esté corriendo.");
+                console.error("Error sending message:", err);
+            }
+        }
+    </script>
+</body>
+</html>
