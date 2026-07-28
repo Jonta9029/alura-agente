@@ -141,14 +141,14 @@ El sistema está protegido mediante múltiples capas defensivas:
     *   Visita `http://localhost:8000/docs` para interactuar con la interfaz Swagger UI y probar los endpoints directamente.
 
 ---
+## Evidencia de Despliegue en la Nube
 
-## ☁️ Despliegue en la Nube con Docker
-Para desplegar la aplicación containerizada en producción:
-1.  Configurar las reglas de Ingress para abrir tráfico en el puerto **8000**.
-2.  Levantar el contenedor:
-    ```bash
-    sudo docker-compose up -d --build
-    ```
+La aplicacion ha sido desplegada utilizando la plataforma Render, ya que permite compilar y servir contenedores Docker de forma automatica y permanente las 24 horas del dia.
+
+* Enlace publico de la aplicacion desplegada: https://alura-agente-5p50.onrender.com/
+* Captura de pantalla de la aplicacion ejecutandose correctamente en produccion:
+
+![Captura de pantalla de la aplicacion](screenshot.png)
 
 ---
 
